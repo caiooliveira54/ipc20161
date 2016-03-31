@@ -5,7 +5,7 @@
 #Samuel Silva de França- 1615310049
 #Eduardo Maia Freire-1615310003
 #lista de Repetição
-cont = 0
+cont = 1
 soma = 0
 cond = True
 maior = 0
