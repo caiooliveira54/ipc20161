@@ -1,0 +1,30 @@
+"""
+#lista de repetição
+
+#Antonio Rodrigues de Souza Neto --- matrícula ----1615310028
+#Gabriel Machado Moreira --- matrícula ----1615310034
+#Luiz Gustavo de Rocha Melo --- matrícula ---- 1615310015
+#Lucas Ferreira Soares --- 1615310014
+#Calebe Roberto Chaves da Silva Rebello --- matrícula---1615310043
+
+"""
+
+n = int(input("Digite um número entre 0 e 1000: "))
+
+maior = n 
+menor = n
+soma = n
+
+while(n != 0):
+    n = int(input("Digite um número entre 0 e 1000 (ZERO para sair): "))
+    if (n <= 0) or (n >= 1000):
+        break
+    if (n < menor):
+        menor = n
+    if (n > maior):
+        maior = n
+    soma += n
+
+print("O menor número é: %d" %menor)
+print("O maior número é: %d" %maior)
+print("A soma é: %d" %soma)

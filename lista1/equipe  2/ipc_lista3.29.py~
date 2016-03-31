@@ -1,0 +1,13 @@
+cond = 1
+x1 = 0
+soma = 0
+preco = 1.99
+
+print("Loja Quase Dois - Tabela de preco:")
+
+while( cond <= 50 ):
+    x1 += 1
+    soma += preco
+    print("%d - R$ %.2f"%(x1,soma))
+    cond += 1
+    
