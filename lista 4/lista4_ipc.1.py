@@ -1,4 +1,3 @@
-l = []
 
 #Beatriz Pessoa Longato 1615310001
 
