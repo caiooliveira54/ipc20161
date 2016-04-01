@@ -17,8 +17,8 @@ while cont <= 10: # Enquanto isso for verdade...
     
     cont += 1 # Contador que irá incrementar
     
-    if letras != "a" or letras != "e" or letras != "i"  or letras != "o"  or letras != "u": # Condição para ser consoante (Substitui os 'And' por 'Or')
-        
+    if letras != "a" and letras != "e" and letras != "i"  and letras != "o"  and letras != "u": # Condição para ser consoante (Substitui os 'And' por 'Or')
+#Troquei as substituições porque se utilizarmos Or o cógido não funcionará. Python vai entender que as vogais serão consoantes e se atrapalhar na hora de printar somente as consoantes, por isso devemos utilizar And.       
         consoantes.append(letras) # A cada lopping que for digitado uma consoante, ela será armazenada no vetor 'consoantes'
         
         x +=1 # Acumulador que informará a quantidade de consoantes inseridas
