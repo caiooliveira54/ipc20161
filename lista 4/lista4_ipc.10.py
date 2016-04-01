@@ -6,7 +6,7 @@ b=[]
 
 c=[]
 
-quantidade_elementos=3
+quantidade_elementos=10
 
 
 for i in range(quantidade_elementos):
