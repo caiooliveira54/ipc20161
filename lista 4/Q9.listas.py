@@ -1,4 +1,4 @@
-#Eduardo Maia Freire
+#Eduardo Maia Freire lista4 questao 9
 vetor_A = [1,2,3,4,5,6,7,8,9,10]
 x = 0
 v = len(vetor_A)
