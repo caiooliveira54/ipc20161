@@ -1,4 +1,4 @@
-#ipc_lista4.01
+#ipc_lista4.09
 #Thiago Santos Borges - Matrícula - 1615310023
 #
 a = []
