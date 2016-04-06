@@ -1,3 +1,4 @@
+#Bruno de Olliveira Freire - 1615310030
 b1=float(input("qual a nota do primeiro bimestre?:\n"))
 b2=float(input("qual a nota do segundo bimestre?:\n"))
 b3=float(input("qual a nota do terceiro bimestre?:\n"))
