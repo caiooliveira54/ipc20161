@@ -1,3 +1,4 @@
+#Bruno de Olliveira Freire - 1615310030
 ganho_por_h = float(input("Informe quanto você ganha por hora:\n"))
 horas_mes = float(input("Informe quantas horas você trabalha no mês:\n"))
 
