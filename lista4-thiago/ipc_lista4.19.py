@@ -31,12 +31,14 @@ O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 4
 #
 
 sistema = ["1-Windows Server             ","2-Unix                       ","3-Linux                      ","4-Netware                    ","5-Mac OS                     ","6-Outro                      "]
-soma = windows = unix = linux = netware = mac = outro = 0
-twindows = tunix = tlinux = tmetware = tmac = toutro = 0
+#sistema = ["1-Windows Server","2-Unix","3-Linux","4-Netware","5-Mac OS","6-Outro"]
+nomes = ["Windows Server","Unix","Linux","Netware","Mac OS","Outro"]
+
 cond = True
 taxas = []
-contvotos = []
+contvotos = [0,0,0,0,0,0]
 maior = 0
+soma = 0
 votos = 0
 nome = ""
 
@@ -49,66 +51,50 @@ for i in sistema:
 while cond:
     voto = int(input("Informe valor de 1-6(0=sair):"))
     if voto == 1:
-        windows = windows + 1
+        contvotos[0] = contvotos[0] + 1
         soma = soma + 1
-       # twindows = taxa(windows,soma)
     elif voto == 2:
-        unix = unix + 1
+        contvotos[1] = contvotos[1] + 1
         soma = soma + 1
-        #tunix = taxa(unix,soma)
     elif voto == 3:
-        linux = linux + 1
+        contvotos[2] = contvotos[2] + 1  
         soma = soma + 1
-     #   tlinux = taxa(linux,soma)
     elif voto == 4:
-        netware = netware + 1
+        contvotos[3] = contvotos[3] + 1
         soma = soma + 1
-      #  tnetware = taxa(netware,soma)
     elif voto == 5:
-        mac = mac + 1
+        contvotos[4] = contvotos[4] + 1
         soma = soma + 1
-       # tmac = taxa(mac,soma)
     elif voto == 6:
-        outro = outro + 1
+        contvotos[5] = contvotos[5] + 1
         soma = soma + 1
-        #toutro = taxa(outro,soma)
     elif voto == 0:
         cond = False
     else:
         print("Informe um valor valido!")
 
-twindows = taxa(windows,soma)
-tunix = taxa(unix,soma)
-tlinux = taxa(linux,soma)
-tnetware = taxa(netware,soma)
-tmac = taxa(mac,soma)
-toutro = taxa(outro,soma)
 
-taxas.append(twindows)
-taxas.append(tunix)
-taxas.append(tlinux)
-taxas.append(tnetware)
-taxas.append(tmac)
-taxas.append(toutro)
+taxas.append(taxa(contvotos[0],soma))
+taxas.append(taxa(contvotos[1],soma))
+taxas.append(taxa(contvotos[2],soma))
+taxas.append(taxa(contvotos[3],soma))
+taxas.append(taxa(contvotos[4],soma))
+taxas.append(taxa(contvotos[5],soma))
 
-contvotos.append(windows)
-contvotos.append(unix)
-contvotos.append(linux)
-contvotos.append(netware)
-contvotos.append(mac)
-contvotos.append(outro)
 
-for i,k,p in zip(sistema,contvotos,taxas):
-    if p >= maior:
+for i,k,p in zip(nomes,contvotos,taxas):
+    if k >= maior:
         nome = i
         votos = k
         maior = p
 print(" - Sistema Operacional     -     Votos     -     %     - ")
-for i,k,p in zip(sistema,contvotos,taxas):
-    print("%s     %d             %.2f"%(i,k,p))
+for i,k,p in zip(nomes,contvotos,taxas):
+    print("   %s          %d             %.2f"%(i,k,p))
+
 print("\nTotal                             %d"%soma)
 
-print("O Sistema Operacional mais votado foi o %s, com %d votos, correspondendo a %.2f dos votos."%(nome,votos,maior))
+print("O Sistema Operacional mais votado foi o %s, com %d votos, correspondendo a %.2f porcento dos votos."%(nome,votos,maior))
+
 
 
 
