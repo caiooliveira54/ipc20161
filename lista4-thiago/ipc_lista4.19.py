@@ -26,7 +26,7 @@ Outro                     150    2%
 Total                    8800
 
 O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 40% dos votos."""
-#ipc_lista4.01
+#ipc_lista4.19
 #Thiago Santos Borges - Matrícula - 1615310023
 #
 
