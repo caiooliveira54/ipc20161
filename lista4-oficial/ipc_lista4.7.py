@@ -1,4 +1,5 @@
 #Bruno de Oliveira Freire - 1615310030
+#questao 7 da lista de "listas"
 v=[]
 soma=0
 i=0
