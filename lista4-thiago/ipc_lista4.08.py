@@ -1,3 +1,6 @@
+#ipc_lista4.01
+#Thiago Santos Borges - Matrícula - 1615310023
+#
 idade = []
 altura = []
 idadeinv = []
@@ -10,15 +13,13 @@ for i in range(1,4):
     altura.append(alt_pessoa)
 
 i = len(idade) - 1
-while i >= 0:
-    indice = idade[i]
-    idadeinv.append(indice)
+while i >= 0: 
+    idadeinv.append(idade[i])
     i = i - 1
 
 i = len(altura) - 1
 while i >= 0:
-    indice = altura[i]
-    alturainv.append(indice)
+    alturainv.append(altura[i])
     i = i - 1
 
 print(idade)    

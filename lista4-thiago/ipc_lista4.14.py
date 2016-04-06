@@ -1,3 +1,6 @@
+#ipc_lista4.01
+#Thiago Santos Borges - Matrícula - 1615310023
+#
 pergunta = ["Telefonou para a vítima?","Esteve no local do crime?","Mora perto da vítima?","Devia para a vítima?"
 ,"Já trabalhou com a vítima?"]
 classificacao = ""
