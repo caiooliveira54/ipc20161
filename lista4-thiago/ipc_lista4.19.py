@@ -26,6 +26,9 @@ Outro                     150    2%
 Total                    8800
 
 O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 40% dos votos."""
+#ipc_lista4.01
+#Thiago Santos Borges - Matrícula - 1615310023
+#
 
 sistema = ["1-Windows Server             ","2-Unix                       ","3-Linux                      ","4-Netware                    ","5-Mac OS                     ","6-Outro                      "]
 soma = windows = unix = linux = netware = mac = outro = 0

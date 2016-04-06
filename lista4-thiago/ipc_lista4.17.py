@@ -1,3 +1,6 @@
+#ipc_lista4.01
+#Thiago Santos Borges - Matrícula - 1615310023
+#
 saltos = []
 sequencia = ["Primeiro","Segundo","Terceiro","Quarto","Quinta"]
 media = 0
