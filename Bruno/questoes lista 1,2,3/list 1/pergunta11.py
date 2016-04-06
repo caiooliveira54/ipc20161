@@ -1,3 +1,4 @@
+#Bruno de Olliveira Freire - 1615310030
 n1=int(input("qual o primeiro numero?: \n"))
 n2=int(input("qual o segundo numero?: \n"))
 n3=float(input("qual o terceiro numero?: \n"))
