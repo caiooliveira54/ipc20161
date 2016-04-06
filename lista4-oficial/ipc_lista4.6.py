@@ -1,4 +1,5 @@
 #Bruno de Oliveira Freire - 1615310030
+#questao 6 da lista de listas
 media=[]
 qtd_alunos=0
 num_aluno=0
