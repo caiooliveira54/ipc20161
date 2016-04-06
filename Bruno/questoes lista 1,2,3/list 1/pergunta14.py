@@ -1,3 +1,4 @@
+#Bruno de Olliveira Freire - 1615310030
 regul_quilos = 50
 peso = float(input("Informe o peso total de peixes pescados:\n"))
 multa = 0.00
