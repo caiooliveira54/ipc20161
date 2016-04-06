@@ -1,6 +1,6 @@
 """
 lista 4 questao 9
-Faça um Programa que leia um vetor A com 10 números inteiros, 
+FaÃ§a um Programa que leia um vetor A com 10 nÃºmeros inteiros, 
 calcule e mostre a soma dos quadrados dos elementos do vetor.
 """
 #Luiz Gustavo Rocha Melo - 1615310015
