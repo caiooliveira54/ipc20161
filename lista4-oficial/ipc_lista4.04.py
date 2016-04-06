@@ -1,3 +1,4 @@
+# Alexander Emerson Batalha Carlos 1615310051 
 A = ["a","b","c","d","e","f","g","h","i","j"]
 C = 0
 v = len(A)
