@@ -1,3 +1,4 @@
+#Bruno de Olliveira Freire - 1615310030
 l=float(input("qual o valor de L sendo L o valor do lado do quadrado?:\n"))
 area=l**2
 dobro=2*area
