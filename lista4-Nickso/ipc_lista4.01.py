@@ -1,3 +1,5 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
+
 lista = list(range(5))
 x = 0
 while x < 5:
