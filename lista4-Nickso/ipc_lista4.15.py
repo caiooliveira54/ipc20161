@@ -1,3 +1,5 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
+
 lista = []
 acima_m = []
 abaixo_m = []
