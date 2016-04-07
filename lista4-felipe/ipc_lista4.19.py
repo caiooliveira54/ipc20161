@@ -25,11 +25,11 @@ while cond:
         total += 1
     if voto < 0 or voto > 6:
         print("Voto inválido! Por favor, escolha uma das opções a seguir:")
-        print("1- Windows Server\n2- Unix\n3- Linux\n4- Netware\n5- Mac OS\n6- Outro")
+        print("1- Windows Server\n2- Unix\n3- Linux\n4- Netware\n5- Mac OS\n6- Outro\n0- Parar o programa")
     if voto == 0:
         total = total
         cond = False
-maior = lista_votos[0]
+maior = 0
 maior_nome = ""
 maior_porcentagem = 0
 
