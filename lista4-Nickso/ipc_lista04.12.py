@@ -1,3 +1,5 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
+
 vidade = []
 valtura = []
 cont = 0
@@ -14,6 +16,3 @@ while cont < 30:
         arm += 1
 print ("Quantidade de alunos abaixo da media",arm)
 print ("Media de altura dos alunos %5.2f" % media)
-        
-    
-    
