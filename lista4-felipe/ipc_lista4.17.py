@@ -1,3 +1,7 @@
+#
+#Programa Lista 4, questão 17;
+#Felipe Henrique Bastos Costa - 1615310032;
+#
 lista_saltos = []
 lista_nomes = []
 lista_media = []
