@@ -1,4 +1,5 @@
-# Nickso Parick Façanha Calheiros
+# Nickso Patrick Façanha Calheiros - 1615310059
+
 temp = []
 mes = ["Janeiros", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outeubro", "Novembro", "Dezembro"]
 armaz = []
