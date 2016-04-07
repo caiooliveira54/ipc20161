@@ -1,4 +1,5 @@
 #Nickso Patrick Façanha Calheiros - 1615310059
+
 nota = [6,10,10,6]
 c = 0
 v = len (nota)
