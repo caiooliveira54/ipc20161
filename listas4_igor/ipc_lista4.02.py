@@ -4,7 +4,7 @@
 vetor1 = [] # Vetor que receberá os primeiros valores informados pelo usuário
 vetor2 = [] # Vetor que receberá o vetor1 na ordem inversa
 
-for i in range(1,6): # Enquanto estiver no alcance de 1 até 5 solicitará valores ao usuário
+for i in range(1,11): # Enquanto estiver no alcance de 1 até 10 solicitará valores ao usuário
     num = int(input("Digite numero:"))
     vetor1.append(num) # Função que adiciona os números acima informados ao vetor1
 
