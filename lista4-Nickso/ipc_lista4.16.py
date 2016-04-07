@@ -1,3 +1,5 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
+
 vetcont = []
 venda_no_mes = []
 quest = ["a", "b","c","d","e","f","g","h","i"]
