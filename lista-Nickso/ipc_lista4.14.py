@@ -1,3 +1,5 @@
+# Nickso Patrick Façanha Calheiros - 1615310059
+
 l = list(range(5))
 p = ["Telefonou para a vítima?", "Esteve no local do crime?", "Mora perto da vítima?", "Devia para a vítima?", "Já trabalhoe com a vítima?"]
 x = 0
