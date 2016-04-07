@@ -1,3 +1,4 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
 vet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
 c = 0
 v = len (vet)
