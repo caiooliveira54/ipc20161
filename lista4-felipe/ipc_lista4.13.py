@@ -9,7 +9,7 @@ cont1 = 1 # Condador que funcionará para determinar qual mês está solicitando
 cont2 = 1 # Contador que mostrará o número de cada linha (Estética)
 
 for i in range (12): # Enquanto estiver ao alcance de 12 índices...
-    x = float(input("Informe a temperatura do %dº mês do ano:\n"%cont1)) # SOlicitará elementos ao usuário
+    x = float(input("Informe a temperatura do %dº mês do ano em ºC:\n"%cont1)) # Solicitará elementos ao usuário
     temp.append(x) # Adicionando as temperaturas ao vetor 'temp'
     soma += x # Somatório das temperaturas
     cont1 += 1
