@@ -1,3 +1,5 @@
+# Nickso Patrick Façanha Calheiros - 1615310059
+
 vetor = [1,2,3,4,5]
 cont = 0
 ind = len(vetor)
