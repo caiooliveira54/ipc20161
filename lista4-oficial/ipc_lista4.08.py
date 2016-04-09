@@ -16,7 +16,7 @@ c2 = 0
 while (c2 < v):
     x = int(input("A idade da pessoa: "))
     idade.append(x)
-    y = float(input("O tamnaho da pessoa: "))
+    y = float(input("A altura da pessoa: "))
     altura.append(y)
     c1 += 1
     c2 += 1
