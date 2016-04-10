@@ -7,7 +7,6 @@ calcule e mostre a soma dos quadrados dos elementos do vetor.
 vetor_A = []
 v = 10
 c1 = 0
-c2 = 1
 soma = 0
 
 while(c1 < v):
@@ -15,6 +14,5 @@ while(c1 < v):
     vetor_A.append(x)
     soma = soma + (x**2)
     c1 += 1
-    c2 += 1
 
 print("A soma dos quadrados dos elementos e igual a:", soma)
