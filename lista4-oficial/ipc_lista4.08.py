@@ -10,16 +10,14 @@ alturainv = []
 idade = []
 idadeinv = []
 v = 5
-c1 = 1
-c2 = 0
+c1 = 0
 
-while (c2 < v):
+while (c1 < v):
     x = int(input("A idade da pessoa: "))
     idade.append(x)
     y = float(input("A altura da pessoa: "))
     altura.append(y)
     c1 += 1
-    c2 += 1
     
 while (v > 0):
     v -= 1
