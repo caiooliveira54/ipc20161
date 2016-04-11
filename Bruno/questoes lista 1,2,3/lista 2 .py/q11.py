@@ -1,3 +1,4 @@
+#bruno de Oliveira Freire - 1615310030
 salario=float(input("informe seu salario atual:\n"))
 
 percentual1= salario*0.2
