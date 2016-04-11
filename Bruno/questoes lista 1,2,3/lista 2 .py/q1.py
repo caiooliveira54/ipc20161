@@ -1,3 +1,4 @@
+#Bruno de Oliveira Freire - 1615310030
 num1 = int(input(" me dê o primeiro número:\n"))
 num2 = int(input(" me dê o segundo número:\n"))
 if( num1>num2 ):
