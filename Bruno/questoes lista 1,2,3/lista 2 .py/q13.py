@@ -1,3 +1,4 @@
+#bruno de Oliveira Freire - 1615310030
 dia=int(input("indique numero equivalente ao dia da semana:\n"))
 domingo=1
 segunda=2
