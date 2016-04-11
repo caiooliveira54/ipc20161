@@ -1,3 +1,4 @@
+#Bruno Olveira Freire -1615310030
 turno=str(raw_input("em qual turno voce estuda:"))
 
 m=0
