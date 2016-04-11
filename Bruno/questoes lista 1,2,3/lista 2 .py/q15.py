@@ -1,3 +1,4 @@
+#bruno de Oliveira Freire - 1615310030
 lado1 = float(input("Indique o primeiro lado: "))
 lado2 = float(input("Indique o segundo lado: "))
 lado3 = float(input("Indique o terceiro lado: "))
