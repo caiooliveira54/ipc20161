@@ -1,3 +1,4 @@
+#bruno de Oliveira Freire - 1615310030
 nota1 = float(input("Digite a nota1: "))
 nota2 = float(input("Digite a nota2: "))
 
