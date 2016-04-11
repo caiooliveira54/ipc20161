@@ -1,3 +1,4 @@
+#bruno de Oliveira Freire - 1615310030
 hora=float(input("quantas horas voce trabalha?:\n"))
 ganho_hora=float(input("quanto voce ganho por hora?:\n"))
 ir=0
