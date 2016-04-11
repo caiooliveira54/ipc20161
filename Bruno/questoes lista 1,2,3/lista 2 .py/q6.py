@@ -1,3 +1,4 @@
+#bruno de Oliveira Freire - 1615310030
 nota1 = float(input(" digite o número 1 "))
 nota2 = float(input(" digite o número 2 "))
 nota3 = float(input(" digite o número 3 "))
