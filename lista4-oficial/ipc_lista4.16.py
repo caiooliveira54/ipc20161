@@ -1,37 +1,40 @@
-#Nickso Patrick Façanha Calheiros - 1615310059
-vetcont = []
-venda_no_mes = []
-quest = ["a", "b","c","d","e","f","g","h","i"]
-ac = 0
-cond = True
+s=[]
+classificacao=[0,0,0,0,0,0,0,0,0,0]
+x=0
 
-while cond:
-    venda = float(input("Digite sua venda bruta no mês(-1 para sair): R$ "))
-    bruto = 200.00 +((venda * 9)/100.00)
-    venda_no_mes.append(bruto) 
-    if venda == -1:
-        cond = False
-v = len(quest)
-ind = len(venda_no_mes)
-
-for i in range(v):
-    vetcont.append(ac)
-for i in range(ind):
-    if venda_no_mes[i] >= 200 and venda_no_mes[i] <= 299:
-        vetcont[0]+=1
-    if venda_no_mes[i] >= 300 and venda_no_mes[i] <= 399:
-        vetcont[1]+=1
-    if venda_no_mes[i] >= 400 and venda_no_mes[i] <= 499:
-        vetcont[2]+=1
-    if venda_no_mes[i] >= 500 and venda_no_mes[i] <= 599:
-        vetcont[3]+=1
-    if venda_no_mes[i] >= 600 and venda_no_mes[i] <= 699:
-        vetcont[4]+=1
-    if venda_no_mes[i] >= 700 and venda_no_mes[i] <= 799:
-        vetcont[5]+=1
-    if venda_no_mes[i] >= 800 and venda_no_mes[i] <= 899: 
-        vetcont[6]+=1
-    if venda_no_mes[i] >= 1000:
-        vetcont[7]+=1
-for i in range(v):
-    print ("%d Vendedores no intervalo %s" %(vetcont[i],quest[i]))
+while x!=1:
+    
+    bruto=float(input("digite a venda bruta da semana :"))
+    x=int(input("digite 1 se quiser sair e 0 para continuar:"))
+    salario= 200 + (bruto*0.09)
+    s.append(salario)
+    
+    if salario>=200 and salario<=299:
+        classificacao[0]+=1
+    if salario>=300 and salario<=399: 
+        classificacao[1]+=1
+    if salario>=400 and salario<=499: 
+        classificacao[2]+=1
+    if salario>=500 and salario<=599:
+        classificacao[3]+=1
+    if salario>=600 and salario<=699:
+        classificacao[4]+=1
+    if salario>=700 and salario<=799: 
+        classificacao[5]+=1
+    if salario>=800 and salario<=899:
+        classificacao[6]+=1
+    if salario>=900 and salario<=999:
+        classificacao[7]+=1
+    if salario>=1000: 
+        classificacao[8]+=1
+print("%d ganham o salario tipo -a-"%classificacao[0])
+print("%d ganham o salario tipo -b-"%classificacao[1])
+print("%d ganham o salario tipo -c-"%classificacao[2])
+print("%d ganham o salario tipo -d-"%classificacao[3])
+print("%d ganham o salario tipo -e-"%classificacao[4])
+print("%d ganham o salario tipo -f-"%classificacao[5])
+print("%d ganham o salario tipo -g-"%classificacao[6])
+print("%d ganham o salario tipo -h-"%classificacao[7])
+print("%d ganham o salario tipo -i-"%classificacao[8])
+        
+        
