@@ -1,3 +1,7 @@
+#EQUIPE 2
+#
+#
+#Ana Beatriz Frota - 1615310027
 #Kylciane Cristiny Lopes Freitas - 1615310052
 #Questão 14
 pergunta = ["Telefonou para a vítima: ? ","Esteve no local do crime: ? ","Mora perto da vítima: ? ","Devia para a vítima: ? "
