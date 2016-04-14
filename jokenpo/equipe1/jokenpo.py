@@ -6,6 +6,7 @@ nome=raw_input("digite seu nome:")
 numero= random.randint(1,3)
 x=0
 while x !=1:
+    
 
     print("\n escolha o numero\n digite 1 para pedra \n digite 2 para tesoura \n digite 3 para papel")
     
