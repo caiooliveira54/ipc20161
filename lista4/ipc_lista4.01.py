@@ -1,4 +1,8 @@
-# Victor Rafael da Silva e Silva 1615310025 
+# Victor Rafael da Silva e Silva - 1615310025 
+# Any Mendes Carvalho - 1615310044
+
+#Faça um Programa que leia um vetor de 5 números inteiros e mostre-os. 
+#---------------------------------------------------------------------
 vet = []
 i = 0
 while i <5:
