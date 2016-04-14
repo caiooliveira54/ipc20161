@@ -6,8 +6,8 @@
 
 #Faça um Programa que peça dois números e imprima a soma
 
-number1 = input("Primeiro numero: ")
-number2 = input("Segundo numero: ")
+number1 = int(input("Primeiro numero: "))
+number2 = int(input("Segundo numero: "))
 
 soma = number1 + number2
 
