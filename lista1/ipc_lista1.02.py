@@ -2,9 +2,10 @@
 #Any Mendes Carvalho - 1615310044
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #Beatriz Pessoa Longato - 1615310001
-#Nickso Patrick Façanha Calheiros - 1615310059
+#Nickso Patrick FaÃ§anha Calheiros - 1615310059
 
-#Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número]
+#FaÃ§a um Programa que peÃ§a um nÃºmero e entÃ£o mostre a mensagem O nÃºmero informado foi [nÃºmero]
 
-number =input("Digite um numero: ")
-print "O numero digitado foi " , number 
+number = input("Digite um numero: ")
+
+print("O numero digitado foi ", number) 
