@@ -2,10 +2,12 @@
 #Any Mendes Carvalho - 1615310044
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #Beatriz Pessoa Longato - 1615310001
-#Nickso Patrick Façanha Calheiros - 1615310059
+#Nickso Patrick FaÃ§anha Calheiros - 1615310059
 
-#Faça um Programa que converta metros para centímetros.
+#FaÃ§a um Programa que converta metros para centÃ­metros.
 
-metros = input("Digite o valor em metros que deseja converter em centimetros: ")
+metros = float(input("Digite o valor em metros que deseja converter em centimetros: "))
+
 centimetros = metros * 100 
-print "Esse valor equivale a: %d" %centimetros,"cm"
+
+print("Esse valor equivale a: %.2f" %centimetros,"cm")
