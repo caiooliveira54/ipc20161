@@ -2,9 +2,9 @@
 #Bruno de Oliveira freire - 1615310030
 #Felipe Henrique Bastos Costa -1615310032
 #Caio de OLiveira Martins-1615310031
-#Samuel Silva de França- 1615310049
+#Samuel Silva de FranÃ§a- 1615310049
 #Eduardo Maia Freire-1615310003
-#lista de Repetição
+#lista de RepetiÃ§Ã£o
 
 sal_inicial = float(1000)
 
@@ -15,4 +15,4 @@ while (cont1 < 2016):
     sal_final = sal_inicial + (sal_inicial*cont2)
     cont2 = cont2 * 2
     cont1 = cont1 +1
-print("Salario atual é: %.2f" %sal_final)
+print("Salario atual Ã©: %.2f" %sal_final)
