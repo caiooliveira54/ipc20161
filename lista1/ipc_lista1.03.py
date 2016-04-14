@@ -9,4 +9,4 @@
 number1 = input("Primeiro numero: ")
 number2 = input("Segundo numero: ")
 
-print(number1+number2)
+print(number1 + number2)
