@@ -9,4 +9,6 @@
 number1 = input("Primeiro numero: ")
 number2 = input("Segundo numero: ")
 
-print(number1 + number2)
+soma = number1 + number2
+
+print(soma)
