@@ -12,4 +12,4 @@ largura = float(input("Digite a largura do quadrado em metros: "))
 a = altura * largura
 
 print("A area e: %.2f m²" %a)
-print("O DOBRO da area e: ",(a * 2))
+print("O DOBRO da area e: ",(a * 2)"m²")
