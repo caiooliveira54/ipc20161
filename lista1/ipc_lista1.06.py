@@ -2,14 +2,14 @@
 #Any Mendes Carvalho - 1615310044
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #Beatriz Pessoa Longato - 1615310001
-#Nickso Patrick Façanha Calheiros - 1615310059
+#Nickso Patrick FaÃ§anha Calheiros - 1615310059
 
-#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área")
+#FaÃ§a um Programa que peÃ§a o raio de um cÃ­rculo, calcule e mostre sua Ã¡rea")
 
 raio = 0  
 area = 0 
 
-raio = input("Entre com o valor do raio: ")  
-area = 3.14 * raio*raio 
+raio = float(input("Entre com o valor do raio: "))  
+area = 3.14 * (raio*raio) 
 
-print "Valor da area do circulo: %d m²" % area
+print("Valor da area do circulo: %.2f" %area)
