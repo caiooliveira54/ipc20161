@@ -1,3 +1,12 @@
+#
+# QUESTÂO 2
+# EQUIPE 2
+# ANA BEATRIZ FROTA - 1615310027
+#
+#
+#
+#
+#
 vetor = []
 vetor1 = []
 for i in range (10):
