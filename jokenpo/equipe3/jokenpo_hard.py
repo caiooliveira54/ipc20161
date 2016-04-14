@@ -1,3 +1,6 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Ariel Guilherme Rocha Capistrano - 1615310029
+
 import random
 
 numero = (random.randint(1,5))
