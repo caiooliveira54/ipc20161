@@ -2,13 +2,14 @@
 #Any Mendes Carvalho - 1615310044
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #Beatriz Pessoa Longato - 1615310001
-#Nickso Patrick Façanha Calheiros - 1615310059
+#Nickso Patrick FaÃ§anha Calheiros - 1615310059
 
-#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o #usuário
+#FaÃ§a um Programa que calcule a Ã¡rea de um quadrado, em seguida mostre o dobro desta Ã¡rea para o #usuÃ¡rio
    
-altura = input("Digite a altura do quadrado em metros: ")
-largura = input("Digite a largura do quadrado em metros: ")
-a = altura * largura
-print "A area e: m²" , (a)
-print "O DOBRO da area e: ",a * 2
+altura = float(input("Digite a altura do quadrado em metros: "))
+largura = float(input("Digite a largura do quadrado em metros: "))
 
+a = altura * largura
+
+print("A area e: %.2f mÂ²" %a)
+print("O DOBRO da area e: ",(a * 2)"mÂ²")
