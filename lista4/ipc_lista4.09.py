@@ -3,13 +3,17 @@ lista 4 questao 9
 Faça um Programa que leia um vetor A com 10 números inteiros, 
 calcule e mostre a soma dos quadrados dos elementos do vetor.
 """
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
 #EQUIPE 2
-#ANA BEATRIZ FROTA - 1615310027
 #
-#
-#
+#Ana Beatriz Frota  - 1615310027 
+#Kylciane Cristiny Lopes Freitas - 1615310052
+#Frankilin Yuri Gonçaves dos santos - 1615310033
 #
 #Luiz Gustavo Rocha Melo - 1615310015
+
 
 
 vetor_A = []
