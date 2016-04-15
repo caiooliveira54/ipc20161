@@ -1,4 +1,4 @@
-#Introdução a Programação de Computadores
+#IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores
 #Professor: Jucimar Junior
 #Any Mendes Carvalho - 1615310044
 #Kid Mendes de Oliveira Neto - 1615310011
@@ -7,11 +7,11 @@
 #Luiz Alexandre Olivera de Souza-1615310057
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o #usuário
+#FaÃ§a um Programa que calcule a Ã¡rea de um quadrado, em seguida mostre o dobro desta Ã¡rea para o #usuÃ¡rio
    
 altura = input("Digite a altura do quadrado em metros: ")
 largura = input("Digite a largura do quadrado em metros: ")
 a = altura * largura
-print ("A area e: m²" , (a))
+print ("A area e: mÂ²" , (a))
 print ("O DOBRO da area e: ",a * 2)
 
