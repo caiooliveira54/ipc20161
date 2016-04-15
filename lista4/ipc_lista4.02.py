@@ -3,7 +3,11 @@
 #EQUIPE 2
 #Felipe Henrique Bastos Costa - 1615310032;
 #Ana Beatriz Frota  - 1615310027 
+#Kylciane Cristiny Lopes Freitas - 1615310052
 #
+#
+
+
 lista1 = []
 lista2 = []
 v = 10
