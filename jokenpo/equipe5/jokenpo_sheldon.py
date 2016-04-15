@@ -1,3 +1,4 @@
+#Calebe Roberto Chaves da Silva Rebello
 import random
 
 tentativas_max = 1
