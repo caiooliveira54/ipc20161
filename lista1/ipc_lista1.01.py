@@ -1,5 +1,4 @@
-
-#ipc_lista1.1
+#Introdução a Programação de Computadores
 #Professor: Jucimar Junior
 #Any Mendes Carvalho - 1615310044
 #Kid Mendes de Oliveira Neto - 1615310011
