@@ -15,11 +15,11 @@
 
 
 
-cont = 1
-numero = 1
+cont = 1 #contador
+numero = 1 #variável 
 
-while (cont <= 49):
-    numero= numero + 1
-    cont = cont + 1
-    if (numero%2 !=0):
+while (cont <= 49): #enquanto o contador for menor/igual 49:
+    numero= numero + 1 #numero igual ao seu sucessor
+    cont = cont + 1 #contador + 1
+    if (numero%2 !=0): # se o resto da divisão do numero por 2 for diferente de  zero (impar)
         print(numero)
