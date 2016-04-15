@@ -1,3 +1,9 @@
+# EQUIPE 2
+#
+# Ana Beatriz Frota - 1615310027
+#
+#
+#
 #Kylciane Cristiny Lopes Freitas - 1615310052
 #Questao 19
 
