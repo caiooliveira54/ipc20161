@@ -1,4 +1,4 @@
-#Introdução a Programação de Computadores
+#IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores
 #Professor: Jucimar Junior
 #Any Mendes Carvalho - 1615310044
 #Kid Mendes de Oliveira Neto - 1615310011
@@ -7,10 +7,10 @@
 #Luiz Alexandre Olivera de Souza-1615310057
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+#FaÃ§a um Programa que pergunte quanto vocÃª ganha por hora e o nÃºmero de horas trabalhadas no mÃªs. Calcule e mostre o total do seu salÃ¡rio no referido mÃªs.
 
 QntHora = input("Entre com o valor de seu rendimento por hora: ")  
-hT = input("Entre com a quantidade de horas trabalhadas no mês: ")  
+hT = input("Entre com a quantidade de horas trabalhadas no mÃªs: ")  
   
 Salario = round(QntHora*hT,2) 
 
