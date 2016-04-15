@@ -6,7 +6,7 @@ Imprima a idade e a altura na ordem inversa a ordem lida.
 """
 # EQUIPE 2
 #ANA BEATRIZ FROTA - 1615310027
-#
+#Kylciane Cristiny Lopes Freitas - 1615310052
 #
 #
 #
