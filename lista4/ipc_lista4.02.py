@@ -1,10 +1,11 @@
 #
-#Programa Lista 4, questão 2;
+#introdução a programação de computadores
+#Professor: Jucimar JR
 #EQUIPE 2
-#Felipe Henrique Bastos Costa - 1615310032;
+#
 #Ana Beatriz Frota  - 1615310027 
 #Kylciane Cristiny Lopes Freitas - 1615310052
-#
+#Frankilin Yuri Gonçaves dos santos - 1615310033
 #
 
 
