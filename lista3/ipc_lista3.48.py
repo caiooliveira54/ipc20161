@@ -5,7 +5,7 @@
 #Nickso Patrick Façanha Calheiros - 1615310059
 #Mateus Mota de Souza - 1615310016
 #Igor Menezes Sales Vieira - 1615310007
-#
+#Nadine da Cunha Brito - 1615310040
 numero = int(input("Digite um numero:"))
 aux = numero
 reverso = 0
