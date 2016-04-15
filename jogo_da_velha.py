@@ -1,5 +1,10 @@
+#Introduçao a programaçao de computadores
+#Professor: Jucimar Junior
+#Bruno de Oliveira Freire - 1615310030
+#Thiago Santos Borges - 1615310023
 #Nickso Patrick Façanha Calheiros - 1615310059
-
+#Matheus Mota de Souza - 1615310016
+#Igor Menezes Sales Vieira - 1615310007
 
 import random
 vetor = ["0","1","2","3","4","5","6","7","8"]
