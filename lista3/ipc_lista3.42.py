@@ -5,7 +5,8 @@
 #Matheus Palheta Barbosa//Matricula->1615310019
 #Luiz Alexandre Olivera de Souza//Matricula->1615310057
 #Nadine da Cunha Brito//Matricula->1615310040
-#
+#Nickso Patrick Façanha Calheiros//Matricula->1615310059
+
 cond = True
 cont25 = cont50 = cont75 = cont100 = 0
 while cond:
