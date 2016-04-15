@@ -1,8 +1,8 @@
+#EQUIPE 2
+#Nahan Trindade Passos - 1615310021
+#Ana Beatriz Frota - 1615310027
 #
-#Igor Menezes Sales Vieira 1615310007 
-#Kid Mendes de Oliveira Neto 1615310011
-#Victor Rafael da Silva e Silva 1615310025
-#Josue Vasques Catachunga 1615310054
+#
 #
 
 
