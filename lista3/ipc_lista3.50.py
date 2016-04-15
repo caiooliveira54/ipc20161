@@ -2,6 +2,9 @@
 #Professor: Jucimar Junior
 #Thiago Santos Borges - 1615310023
 #Bruno de Oliveira Freire - 1615310030
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Mateus Mota de Souza - 1615310016
+#Igor Menezes Sales Vieira - 1615310007
 #
 N  = int(input("N:"))
 cont = 1
