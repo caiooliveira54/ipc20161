@@ -10,7 +10,7 @@
 #Luiz Gustavo Rocha Melo - 1615310015
 #Nahan Trindade Passos - 1615310021
 #Samuel Silva França - 1615310049
-#
+#Luiz Alexandre Oliveira de Souza - 1615310057
 #
 
 
