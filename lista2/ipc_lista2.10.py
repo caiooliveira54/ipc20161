@@ -1,3 +1,13 @@
+#
+#EQUIPE 2
+#
+#ANA BEATRIZ FROTA - 1615310027
+#Nahan Trindade Passos - 1615310021
+#
+#
+#
+#
+
 numero1 = int(input("Insira um numero: "))
 numero2 = int(input("Insira outro numero: "))
 
