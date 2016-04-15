@@ -15,8 +15,6 @@ nota2 = float(input("Digite a segunda nota do bimestre: "))
 nota3 = float(input("Digite a terceira nota do bimestre: "))
 nota4 = float(input("Digite a quarta nota do bimestre: "))
 
-print
 media = (nota1+nota2+nota3+nota4)/ 4.0
 
-
-print "A sua media e: %s" %media
+print ("A sua media e: %s" %media)
