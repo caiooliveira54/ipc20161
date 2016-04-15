@@ -1,5 +1,8 @@
-#Aluno: Lucas Ferreira Soares - 1615310014
+
 #Grupo: 2
+# Lucas Ferreira Soares - 1615310014
+# Ana Beatriz Frota - 1615310027
+# 
 #Lista: 4
 #Questão: 17
 
