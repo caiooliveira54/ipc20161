@@ -4,6 +4,9 @@
 #
 #
 #
+#
+
+
 lista = []#lista vazia;
 cont1 = 0#contador do indice;
 cont2 = 1#contador da posição do numero, se é o primeiro, segundo etc;
