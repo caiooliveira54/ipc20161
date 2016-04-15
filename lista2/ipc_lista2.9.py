@@ -1,3 +1,12 @@
+# EQUIOE 2
+#
+#Ana Beatriz Frota - 1615310027
+#
+#
+#
+#
+
+
 cont = 1
 numero = 1
 
