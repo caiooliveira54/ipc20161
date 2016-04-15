@@ -1,4 +1,4 @@
-#Introduçao a Programaçao de Computadores
+#Introduçao a Programação de Computadores
 #Professor: Jucimar Junior
 #Bruno de Oliveira Freire - 1615310030
 #Igor Menezes Sales Vieira - 1615310007
