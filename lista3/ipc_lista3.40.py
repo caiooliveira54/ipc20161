@@ -5,7 +5,7 @@
 #Matheus Palheta Barbosa//Matricula->1615310019
 #Luiz Alexandre Olivera de Souza//Matricula->1615310057
 #Nadine da Cunha Brito//Matricula->1615310040
-#
+#Nickso Patrick Façanha Calheiros//Matricula->1615310059
 
 cont = 1
 ind_maior = ind_menor = codigo_maior = codigo_menor = num_veiculos = num_acidente = num_macidente = 0
