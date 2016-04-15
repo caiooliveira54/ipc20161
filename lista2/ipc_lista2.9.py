@@ -1,7 +1,7 @@
-# EQUIOE 2
+# EQUIPE 2
 #
 #Ana Beatriz Frota - 1615310027
-#
+#Nahan Trindade Passos - 1615310021
 #
 #
 #
