@@ -1,4 +1,4 @@
-#Introdução a Programação de Computadores
+#IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores
 #Professor: Jucimar Junior
 #Any Mendes Carvalho - 1615310044
 #Kid Mendes de Oliveira Neto - 1615310011
@@ -7,7 +7,7 @@
 #Luiz Alexandre Olivera de Souza-1615310057
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que converta metros para centímetros.
+#FaÃ§a um Programa que converta metros para centÃ­metros.
 
 metros = input("Digite o valor em metros que deseja converter em centimetros: ")
 centimetros = metros * 100 
