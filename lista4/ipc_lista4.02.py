@@ -1,6 +1,6 @@
 #
 #Programa Lista 4, questão 2;
-#EQUIOE 2
+#EQUIPE 2
 #Felipe Henrique Bastos Costa - 1615310032;
 #Ana Beatriz Frota  - 1615310027 
 #
