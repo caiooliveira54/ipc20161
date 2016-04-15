@@ -5,6 +5,7 @@
 #Nickso Patrick Façanha Calheiros - 1615310059
 #Matheus Mota de Souza - 1615310016
 #Igor Menezes Sales Vieira - 1615310007
+#Nadine da Cunha Brito - 1615310040
 #
 q_turmas=int(input("informe a quantidade de turmas:\n"))
 cond=0
