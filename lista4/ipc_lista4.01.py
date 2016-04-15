@@ -2,6 +2,8 @@
 #Programa Lista 4, questão 1;
 #Felipe Henrique Bastos Costa - 1615310032;
 #
+#
+#
 lista = []#lista vazia;
 cont1 = 0#contador do indice;
 cont2 = 1#contador da posição do numero, se é o primeiro, segundo etc;
