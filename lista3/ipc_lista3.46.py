@@ -1,11 +1,12 @@
-#
-#ipc_lista_3_39-51(Questões 49 e 51 são iguais)
+#Introduçao a programaçao de computadores
+#Professor: Jucimar Junior
 #Thiago Santos Borges//Matricula->1615310023
 #Lorene da Silva Marques//Matricula->1615310013
 #Matheus Palheta Barbosa//Matricula->1615310019
 #Luiz Alexandre Olivera de Souza//Matricula->1615310057
 #Nadine da Cunha Brito//Matricula->1615310040
-#
+#Nickso Patrick Façanha Calheiros//Matricula->1615310059
+
 maior = menor = acmmedia = 0
 cont = 1
 SALTOS = 6
