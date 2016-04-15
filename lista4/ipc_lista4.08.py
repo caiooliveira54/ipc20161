@@ -4,12 +4,14 @@ Faça um Programa que peça a idade e a altura de 5 pessoas,
 armazene cada informação no seu respectivo vetor. 
 Imprima a idade e a altura na ordem inversa a ordem lida.
 """
-# EQUIPE 2
-#ANA BEATRIZ FROTA - 1615310027
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 2
+#
+#Ana Beatriz Frota  - 1615310027 
 #Kylciane Cristiny Lopes Freitas - 1615310052
-#
-#
-#
+#Frankilin Yuri Gonçaves dos santos - 1615310033
 #
 #Luiz Gustavo Rocha Melo - 1615310015
 
