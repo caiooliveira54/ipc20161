@@ -12,8 +12,8 @@
 #
 #Fa�a um Programa que pe�a a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
 
-F = input('Entre com a temperatura em graus Farenheit: ')  
+F = input("Entre com a temperatura em graus Farenheit: ")  
   
 C = ((F-32) / 1.8)  
   
-print ("A temperatura em Celcius e': %.1f") % (C) 
+print ("A temperatura em Celcius e': %.1f" %C)
