@@ -11,6 +11,8 @@
 #Nahan Trindade Passos - 1615310021
 #Samuel Silva França - 1615310049
 #Luiz Alexandre Oliveira de Souza - 1615310057
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
 
 data = raw_input ("Digite uma data com o formato dd/mm/aaaa:\n")
 dia  = int(data[0:2])
