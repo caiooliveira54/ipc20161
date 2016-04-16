@@ -1,5 +1,8 @@
-#Introdução a Programação de Computadores
-#Professor: Jucimar Junior
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 1
+#
 #Any Mendes Carvalho - 1615310044
 #Kid Mendes de Oliveira Neto - 1615310011
 #Victor Rafael da Silva e Silva - 1615310025
