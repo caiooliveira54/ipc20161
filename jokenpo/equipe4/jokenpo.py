@@ -2,8 +2,6 @@
 #Igor Menezes Sales Vieira 1615310007
 #Eduardo Maia Freire 1615310003
 #
-
-
 import random
 
 pedra = 1
@@ -52,4 +50,3 @@ while continuar != -1:
     numero = random.randint(1,3)
     if(continuar == -1):
         continuar == -1
-    
