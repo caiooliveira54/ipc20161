@@ -4,7 +4,7 @@
 #Kid Mendes de Oliveira Neto - 1615310011
 #Victor Rafael da Silva e Silva - 1615310025
 #Eduardo Maia Freire - 1615310003
-#Luiz Alexandre Olivera de Souza-1615310057
+#Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
 #Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte formula: \n (72.7*altura) - 58
