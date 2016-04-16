@@ -11,6 +11,8 @@
 #Nahan Trindade Passos - 1615310021
 #Samuel Silva França - 1615310049
 #Luiz Alexandre Oliveira de Souza - 1615310057
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
 
 nota1 = float(input("Primeira nota parcial:\n"))
 nota2 = float(input("Segunda nota parcial:\n"))
