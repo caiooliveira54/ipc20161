@@ -1,4 +1,4 @@
-#introdu��o a programa��o de computadores
+#introdução a programação de computadores
 #Professor: Jucimar JR
 #EQUIPE 1
 #
@@ -13,7 +13,7 @@ n1 = int(input("Insira a primeira nota: "))
 n2 = int(input("Insira a segunda nota: "))
 media = (n1+n2)/2
 if media == 10:
-    print ("Aprovado com distinção")
+    print ("Aprovado com distinÃ§Ã£o")
 elif media >= 7:
     print ("Aprovado")
 else:
