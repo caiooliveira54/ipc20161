@@ -1,4 +1,4 @@
-#introdução a programação de computadores
+#introduÃ§Ã£o a programaÃ§Ã£o de computadores
 #Professor: Jucimar JR
 #EQUIPE 1
 #
@@ -18,4 +18,3 @@ else:
         print ("Sexo Femenino.")
     else:
         print ("Sexo Invalido.")
-            
