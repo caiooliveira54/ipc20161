@@ -9,7 +9,7 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 
-sexo = input("Informe seu sexo F para Femenino e M para Masculino: ")
+sexo = raw_input("Informe seu sexo F para Femenino e M para Masculino: ")
 
 if (sexo == "M"):
     print ("Sexo Masculino.")
