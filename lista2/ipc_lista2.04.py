@@ -9,7 +9,7 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 
-letra = input("Informe uma letra: ")
+letra = raw_input("Informe uma letra: ")
 
 if (letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u"):
     print (letra, "e uma vogal")
