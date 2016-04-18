@@ -14,7 +14,6 @@
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #
 
-
 p1 = float(input("informe o valor do primeiro produto: "))
 p2 = float(input("informe o valor do segundo produto: "))
 p3 = float(input("informe o valor do terceiro produto: "))
