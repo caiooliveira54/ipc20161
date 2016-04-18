@@ -38,4 +38,3 @@ else:
         print("A equacao possui duas raizes")
         print("Primeira raiz:",raiz1)
         print("Segunda raiz:",raiz2)
-        
