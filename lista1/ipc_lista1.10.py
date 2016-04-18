@@ -11,8 +11,9 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-c = float(input("Entre com a temperatura em graus Celsius : "))
-vt = c * 1.8
-f = vt + 32
+c = float(input("Entre com a temperatura em graus Celsius : ")) # Solicita ao usuário a temperatura em celsius
 
-print ("A temperatura em Farenheit é: %.1f" %f)
+vt = c * 1.8 # Multiplica a temperatura em celsius por 1.8 (Etapa da fórmula)
+f = vt + 32 # Depois soma com 32 que é o resultado de celsius para farenheit
+
+print ("A temperatura em Farenheit é: %.1f" %f) # Impressão da temperatura em farenheit para o usuário
