@@ -14,7 +14,7 @@
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #
 
-data = raw_input ("Digite uma data com o formato dd/mm/aaaa:\n")
+data = input("Digite uma data com o formato dd/mm/aaaa:\n")
 dia  = int(data[0:2])
 mes  = int(data[3:5])
 ano  = int(data[6:10])
