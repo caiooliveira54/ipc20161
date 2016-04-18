@@ -17,7 +17,7 @@ n2 = int(input("Insira a segunda nota: "))
 media = (n1+n2)/2
 
 if media == 10:
-    print ("Aprovado com distinÃ§Ã£o")
+    print ("Aprovado com vantagem")
 elif media >= 7:
     print ("Aprovado")
 else:
