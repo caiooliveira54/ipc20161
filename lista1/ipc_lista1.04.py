@@ -10,8 +10,6 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que peça as 4 notas bimestrais e mostre a media
-#
 
 nota1 = float(input("Digite a primeira nota do bimestre: "))
 nota2 = float(input("Digite a segunda nota do bimestre: "))
