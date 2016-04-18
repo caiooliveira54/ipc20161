@@ -11,9 +11,9 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-tamanho = float(input("Tamanho do arquivo em mb:\n"))
-velocidade = float(input("Velocidade do link:\n"))
+tamanho = float(input("Tamanho do arquivo em mb:\n")) # Solicita ao usuário o tamanho do arquivo a ser baixado
+velocidade = float(input("Velocidade do link:\n")) # Solicita ao usuário a velocidade da internet
 
-tempo = (tamanho)/(velocidade/60)
+tempo = (tamanho)/(velocidade/60) # Calcula o tempo estimado do download
 
-print("Tempo estimado:",tempo)
+print("Tempo estimado:",tempo) # Imprime ao usuário o tempo do download
