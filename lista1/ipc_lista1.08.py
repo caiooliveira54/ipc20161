@@ -11,9 +11,9 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-QntHora = float(input("Entre com o valor de seu rendimento por hora: "))  
-hT = float(input("Entre com a quantidade de horas trabalhadas no mês: "))
+QntHora = float(input("Entre com o valor de seu rendimento por hora: ")) # Solicita ao usuário a quantidade de grana por hora
+hT = float(input("Entre com a quantidade de horas trabalhadas no mês: ")) # Solicita ao usuário a quantidade de horas trabalhadas
   
-Salario = round(QntHora*hT,2) 
+Salario = round(QntHora*hT,2) # Processamento do salário do usuário
 
-print ("/nVoce ganhou %.2f reais neste mes" %Salario)
+print ("/nVoce ganhou %.2f reais neste mes" %Salario) # Impressão do salário
