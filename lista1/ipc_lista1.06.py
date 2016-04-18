@@ -10,7 +10,6 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área")
 
 raio = float(input("Entre com o valor do raio: "))  
 area = 3.14 * raio*raio 
