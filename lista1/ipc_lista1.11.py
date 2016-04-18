@@ -11,14 +11,14 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
   
-import math
+number1 = int(input("Digite o primeiro numero inteiro:  "))
+number2 = int(input("Digite o segundo numero inteiro:  "))
+nReal = float(input("Digite o numero real:  "))
 
-number1 = input("Digite o primeiro numero inteiro:  ")
-number2 = input("Digite o segundo numero inteiro:  ")
-nReal = input("Digite o numero real:  ")
-resultado1 = number1 * 2 * (number2 / 2)          
-print ("o produto do dobro do primeiro com metade do segundo = "), resultado1   
-resultado2 = number1 *  3 + nReal
-print ("a soma do triplo do primeiro com o terceiro = "), resultado2
+resultado1 = (number1 * 2) * (number2 / 2)          
+resultado2 = (number1 * 3) + nReal
 resultado3 = nReal ** 3
-print ("o terceiro elevado ao cubo"), resultado3
+
+print ("o produto do dobro do primeiro com metade do segundo = ",resultado1)   
+print ("a soma do triplo do primeiro com o terceiro = ",resultado2)
+print ("o terceiro elevado ao cubo",resultado3)
