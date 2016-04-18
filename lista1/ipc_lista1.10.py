@@ -11,8 +11,8 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-c = input("Entre com a temperatura em graus Celsius : ")
+c = float(input("Entre com a temperatura em graus Celsius : "))
 vt = c * 1.8
 f = vt + 32
 
-print ("A temperatura em Farenheit é: %.1f") % (f)
+print ("A temperatura em Farenheit é: %.1f" %f)
