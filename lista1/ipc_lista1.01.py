@@ -11,4 +11,4 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-print("Hello World")
+print ("Hello World") # Imprime ao usuário a string
