@@ -14,7 +14,6 @@
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #
 
-
 numero1 = int(input("Insira um numero: ")) #PEDE UM NUMERO PARA INICIAR A CONTAGEM
 numero2 = int(input("Insira outro numero: ")) #PEDE UM NUMERO PARA TERMINAR A CONTAGEM
 
