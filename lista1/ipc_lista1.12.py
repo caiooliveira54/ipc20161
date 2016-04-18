@@ -11,9 +11,9 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-altura  = float(input("Digite sua altura em metros, separa por ponto (ex: 1.60): "))
+altura  = float(input("Digite sua altura em metros, separa por ponto (ex: 1.60): ")) # Solicita a altura do usuário
 
-vT = 72.7 * altura 
-r = vT - 58
+vT = 72.7 * altura  # Etapa 1 do processo do cálculo do peso ideal
+r = vT - 58 # # Etapa 2 do processo do cálculo do peso ideal
 
-print ("Seu peso ideal e %.2f "%r) 
+print ("Seu peso ideal e %.2f "%r) # Impressão do peso ideal do usuário
