@@ -10,6 +10,5 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que mostre a mensagem "Alo mundo" na tela. 
 
 print("Hello World")
