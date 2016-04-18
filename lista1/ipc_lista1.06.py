@@ -11,8 +11,8 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-raio = float(input("Entre com o valor do raio: "))  
+raio = float(input("Entre com o valor do raio: ")) # Aqui é solicitado ao usuário o valor do raio da circunferência
 
-area = 3.14 * raio*raio 
+area = 3.14 * raio*raio # Aqui na etapa do processamento é calculada a área
 
-print ("Valor da area do circulo: %d m²" % area)
+print ("Valor da area do circulo: %d m²" % area) # Ao final imprime ao usuário a área da circunferência
