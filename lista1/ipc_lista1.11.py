@@ -1,16 +1,15 @@
-#Introdução a programação de computadores
-#Professor: Jucimar Junior
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 1
+#
 #Any Mendes Carvalho - 1615310044
-#Kid Mendes de Oliveira Neto - 1615310011
-#Victor Rafael da Silva e Silva - 1615310025
 #Eduardo Maia Freire - 1615310003
+#Kid Mendes de Oliveira Neto - 1615310011
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
+#Victor Rafael da Silva e Silva - 1615310025
 #
-#Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:  
-# a-o produto do dobro do primeiro com metade do segundo .  
-# b-a soma do triplo do primeiro com o terceiro.  
-# c-o terceiro elevado ao cubo.  
   
 import math
 
