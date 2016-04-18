@@ -11,9 +11,9 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-altura  = input("Digite sua altura em metros, separa por ponto (ex: 1.60): ")
+altura  = float(input("Digite sua altura em metros, separa por ponto (ex: 1.60): "))
 
 vT = 72.7 * altura 
 r = vT - 58
 
-print ("Seu peso ideal e' ",r) 
+print ("Seu peso ideal e %.2f "%r) 
