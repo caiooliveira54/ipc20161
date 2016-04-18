@@ -10,7 +10,6 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que converta metros para centímetros.
 
 metros = float(input("Digite o valor em metros que deseja converter em centimetros: "))
 centimetros = metros * 100 
