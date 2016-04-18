@@ -12,6 +12,6 @@
 #
 #Faça um Programa que converta metros para centímetros.
 
-metros = input("Digite o valor em metros que deseja converter em centimetros: ")
+metros = float(input("Digite o valor em metros que deseja converter em centimetros: "))
 centimetros = metros * 100 
 print ("Esse valor equivale a: %d" %centimetros,"cm")
