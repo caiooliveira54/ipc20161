@@ -4,6 +4,7 @@
 #Lorene da Silva Marques//Matricula->1615310013
 #Matheus Palheta Barbosa//Matricula->1615310019
 #Luiz Alexandre Olivera de Souza//Matricula->1615310057
+#Igor Menezes Sales Vieira - 1615310007
 #Nadine da Cunha Brito//Matricula->1615310040
 #Nickso Patrick Façanha Calheiros//Matricula->1615310059
 
