@@ -11,8 +11,8 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-F = float(input("Entre com a temperatura em graus Farenheit: "))  
+F = float(input("Entre com a temperatura em graus Farenheit: ")) # Solicita ao usuário a temperatura em fahrenheit
   
-C = ((F-32) / 1.8)  
+C = ((F-32) / 1.8) # Converte a temperatura para celsius
   
-print ("A temperatura em Celcius e': %.1f" %C)
+print ("A temperatura em Celcius e': %.1f" %C) # Imprime a temperatura em celsius ao usuário
