@@ -11,9 +11,9 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-number1 = input("Digite o primeiro: ")
-number2 = input("Digite o segundo número: ")
+number1 = input("Digite o primeiro: ") # Solicita um número ao usuário
+number2 = input("Digite o segundo número: ") # Solicita mais um número ao usuário
+ 
+soma = number1 + number2 # Nesta etapa ocorre o processamento, que é a soma dos números
 
-soma = number1 + number2
-
-print(soma)
+print(soma) # Ao final, ele imprime os números
