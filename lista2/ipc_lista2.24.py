@@ -79,5 +79,3 @@ if(operacao == "/"):
         print("Decimal")
     else:
         print("Inteiro")
-
-
