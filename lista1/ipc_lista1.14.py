@@ -11,12 +11,12 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-peso = float(input("Informe o peso dos peixes: "))
+peso = float(input("Informe o peso dos peixes: ")) # O usuário informa o peso dos peixes
 
-if (peso > 50):
-    excesso = peso - 50
-    multa = excesso * 4.00
-    print("Você excedeu" ,excesso, "kg do numero permitido de peixes \n  O valor \de sua multa e de R$",multa)
+if (peso > 50): # Se for maior que 50KG
+    excesso = peso - 50 # Calculará o excedente
+    multa = excesso * 4.00 # E a multa a ser paga
+    print("Você excedeu" ,excesso, "kg do numero permitido de peixes \n  O valor \de sua multa e de R$",multa) # Imprimirá a multa pelo excesso
 
-else:
-    print("Voce nao excedeu o limite de peixes pescados")
+else: # Caso não
+    print("Voce nao excedeu o limite de peixes pescados") # Imprimirá esta mensagem
