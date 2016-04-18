@@ -10,11 +10,11 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
-#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o #usuário
    
-altura = input("Digite a altura do quadrado em metros: ")
-largura = input("Digite a largura do quadrado em metros: ")
-a = altura * largura
-print ("A area e: m²" , (a))
-print ("O DOBRO da area e: ",a * 2)
+altura = float(input("Digite a altura do quadrado em metros: "))
+largura = float(input("Digite a largura do quadrado em metros: "))
 
+a = altura * largura
+
+print ("A area e: %.2f m²" %a)
+print ("O DOBRO da area e:",(a * 2), "m²")
