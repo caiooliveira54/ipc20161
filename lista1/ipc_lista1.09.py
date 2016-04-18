@@ -10,7 +10,6 @@
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
 #
-#Fa�a um Programa que pe�a a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
 
 F = float(input("Entre com a temperatura em graus Farenheit: "))  
   
