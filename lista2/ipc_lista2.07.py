@@ -24,12 +24,14 @@ if n1>n2 and n1>n3:
         print ("O terceiro número é maior")
     else:
         print ("O segundo número é maior")
+
 if n2>n1 and n2>n3:
     print ("O segundo número á maior")
     if n1>n3:
         print ("O terceiro número é menor")
     else:
         print ("O primeiro número é menor")
+
 if n3>n1 and n3>n2:
     print ("O terceiro número é maior")
     if n1>n2:
