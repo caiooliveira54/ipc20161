@@ -1,10 +1,14 @@
-#Introdução a programação de computadores;
-#Professor: Jucimar Junior
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 3
+#
+#Antonio Rodrigues de Souza Neto - 1615310028
+#Caio de Oliveira Martins - 1615310031
+#Calebe Roberto Chaves da Silva Rebello - 1615310043
 #Felipe Henrique Bastos Costa - 1615310032
 #Lorene da Silva Marques - 1615310013
-#Caio de Oliveira Martins - 1615310031
-#Antonio Rodrigues de Souza Neto - 1615310028
-#Calebe Roberto Chaves da Silva Rebello - 1615310043
+#
 
 pop_A = 80000 
 pop_B = 200000
@@ -20,4 +24,3 @@ while (pop_A < pop_B):
 print ("Apos", anos, "anos a populacao A superou a de B")
 print ("Populacao de A: ", pop_A)
 print ("Populacao de B: ", pop_B)
-
