@@ -11,8 +11,8 @@
 #Victor Rafael da Silva e Silva - 1615310025
 #
 
-metros = float(input("Digite o valor em metros que deseja converter em centimetros: "))
+metros = float(input("Digite o valor em metros que deseja converter em centimetros: ")) # Aqui o usuário insire um valor em metros
 
-centimetros = metros * 100 
+centimetros = metros * 100 # No processamento ocorre a conversão de centimetros para metros
 
-rint ("Esse valor equivale a: %d" %centimetros,"cm")
+print ("Esse valor equivale a: %d" %centimetros,"cm") # Impressão do valor convertido para o usuário
