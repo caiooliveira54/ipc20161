@@ -1,3 +1,9 @@
+# Ana Beatriz Faria Frota
+# Ariel Guilherme
+# Kylciane Cristiny Lopes Freitas
+# Mateus Mota de Souza
+# Nahan Trindade Passos
+
 import random
 tab = ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
 cont = 0
