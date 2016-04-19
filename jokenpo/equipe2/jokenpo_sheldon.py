@@ -26,7 +26,7 @@ print("5 - Lagarto")
 
 tentativa = int(input("Digite uma face\n"))
 while cond:
-    bot  = random.randrange(1,4)
+    bot  = random.randrange(1,6)
 #############################################################
     if tentativa == pedra and bot == pedra:
         print(nome+": ",tentativa)
