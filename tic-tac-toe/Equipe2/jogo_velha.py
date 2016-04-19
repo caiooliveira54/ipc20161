@@ -5,36 +5,36 @@
 # Nahan Trindade Passos - 1615310021 
 
 import random
-tab = ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
+
+tab = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 cont = 0
 
-while (cont < 9):
+while cont < 9:
     if cont % 2 == 0:
-        tabela = ("\n %s | %s | %s \n---+---+--- \n %s | %s | %s  \n---+---+---\n %s | %s | %s "%(tab[0], tab[1], tab[2], tab[3], tab[4], tab[5], tab[6], tab[7], tab[8]))
-        print (tabela)        
-        pos = int (input("\nQual posiçao? "))
-        if tab[pos] == str(pos):
-            tab[pos] = "X"
+        print ("\n %s | %s | %s  \n---+---+--- \n %s | %s | %s  \n---+---+--- \n %s | %s | %s "%(tab[0], tab[1], tab[2], tab[3], tab[4], tab[5], tab[6], tab[7], tab[8]))
+        num = int(input("\nSua jogada: "))
+        if tab[num] == " ":
+            tab[num] = "X"
             cont += 1
         if (tab[0] == tab[1] == tab[2] == "X") or (tab[3] == tab[4] == tab[5] == "X") or (tab[6] == tab[7] == tab[8] == "X") or (tab[0] == tab[3] == tab[6] == "X") or (tab[1] == tab[4] == tab[7] == "X") or (tab[2] == tab[5] == tab[8] == "X") or (tab[0] == tab[4] == tab[8] == "X") or (tab[2] == tab[4] == tab[6] == "X"):
-            print ("\nGanho!")
-            break
+            print ("\nGanhou!")
+            cont = 10
         else:
-            cont = cont
+            cont = cont       
     else:
         comp = random.randint(0,8)
-        if tab[comp] == str(comp):
+        if tab[comp] == " ":
             tab[comp] = "O"
             cont += 1
         if (tab[0] == tab[1] == tab[2] == "O") or (tab[3] == tab[4] == tab[5] == "O") or (tab[6] == tab[7] == tab[8] == "O") or (tab[0] == tab[3] == tab[6] == "O") or (tab[1] == tab[4] == tab[7] == "O") or (tab[2] == tab[5] == tab[8] == "O") or (tab[0] == tab[4] == tab[8] == "O") or (tab[2] == tab[4] == tab[6] == "O"):
             print ("\nPerdeu!")
-            break
+            cont = 10
         else:
             cont = cont
-if cont == 9:
-    print ("velhou")
-<<<<<<< HEAD
-print ("\n", tabela)
-=======
 
->>>>>>> 6f977f77e3a783b62c8522412765f9dc33bf8554
+if cont == 9:
+    print ("\nEmpatou!")
+print ("\n %s | %s | %s  \n---+---+--- \n %s | %s | %s  \n---+---+--- \n %s | %s | %s "%(tab[0], tab[1], tab[2], tab[3], tab[4], tab[5], tab[6], tab[7], tab[8]))
+
+         
+
