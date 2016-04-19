@@ -3,7 +3,6 @@
 #Thiago Santos Borges - 1615310023
 #Bruno de Oliveira Freire - 1615310030
 #Nickso Patrick Façanha Calheiros - 1615310059
-#Mateus Mota de Souza - 1615310016
 #Igor Menezes Sales Vieira - 1615310007
 #Nadine da Cunha Brito - 1615310040
 #Ana Jessye Almeida Antunes - 1615310046
