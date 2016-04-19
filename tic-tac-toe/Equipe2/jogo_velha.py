@@ -33,4 +33,8 @@ while (cont < 9):
             cont = cont
 if cont == 9:
     print ("velhou")
+<<<<<<< HEAD
 print ("\n", tabela)
+=======
+
+>>>>>>> 6f977f77e3a783b62c8522412765f9dc33bf8554
