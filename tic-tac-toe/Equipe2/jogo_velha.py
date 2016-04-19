@@ -33,3 +33,4 @@ while (cont < 9):
             cont = cont
 if cont == 9:
     print ("velhou")
+print ("\n", tabela)
