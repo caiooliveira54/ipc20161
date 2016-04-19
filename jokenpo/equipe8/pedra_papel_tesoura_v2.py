@@ -1,5 +1,5 @@
 # Mateus Mota de Souza - 1615310016
-# Nahan Trindade Passos
+# Nahan Trindade Passos - 1615310021
 import random
 print ("Pedra, Papel, Tesoura, Spock e Lagarto - v1 \n")
 
