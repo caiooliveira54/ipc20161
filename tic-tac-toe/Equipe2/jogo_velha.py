@@ -1,8 +1,8 @@
-# Ana Beatriz Faria Frota
-# Ariel Guilherme
-# Kylciane Cristiny Lopes Freitas
-# Mateus Mota de Souza
-# Nahan Trindade Passos
+# Ana Beatriz Faria Frota - 1615310027
+# Ariel Guilherme - 1615310029
+# Kylciane Cristiny Lopes Freitas - 1615310052
+# Mateus Mota de Souza - 1615310016
+# Nahan Trindade Passos - 1615310021 
 
 import random
 tab = ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
