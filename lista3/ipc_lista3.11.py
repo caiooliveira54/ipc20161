@@ -1,13 +1,17 @@
-#Introdução a programação de computadores;
-#Professor: Jucimar Junior
+#
+#introduÃ§Ã£o a programaÃ§Ã£o de computadores
+#Professor: Jucimar JR
+#EQUIPE 3
+#
+#Antonio Rodrigues de Souza Neto - 1615310028
+#Caio de Oliveira Martins - 1615310031
+#Calebe Roberto Chaves da Silva Rebello - 1615310043
 #Felipe Henrique Bastos Costa - 1615310032
 #Lorene da Silva Marques - 1615310013
-#Caio de Oliveira Martins - 1615310031
-#Antonio Rodrigues de Souza Neto - 1615310028
-#Calebe Roberto Chaves da Silva Rebello - 1615310043
+#
 
-x = int(input("Digite um número: "))
-y = int(input("Digite outro número: "))
+x = int(input("Digite um nÃºmero: "))
+y = int(input("Digite outro nÃºmero: "))
 
 c1 = x
 c2 = y
@@ -15,14 +19,14 @@ soma = 0
 
 if (c1 < c2):
     while (c1 < c2):
-        print("Número %d"% c1)
+        print("NÃºmero %d"% c1)
         soma += c1
         c1 += 1
 
 if (c2 < c1):
     while (c2 < c1):
-        print("Número %d"% c2)
+        print("NÃºmero %d"% c2)
         soma += c2
         c2 += 1
 
-print("A soma dos valores é",soma)
+print("A soma dos valores Ã©",soma)
