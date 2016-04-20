@@ -14,85 +14,90 @@
 
 from random import *
 
-vet1=["_","_","_","_","_","_"," "," "," "]
-vet=[1,2,3,4,5,6,7,8,9]
+tabuleiro_velha=["_","_","_","_","_","_","_","_","_"]
+posicoes=[1,2,3,4,5,6,7,8,9]
 i = 0            
-cont = 0
-cond_aux = False
+numero_de_jogadas_player = 0
+fim_de_jogo = False
 cond = False
 cond1 = False
 cond_verdade = False
 cond2 = False
 end = False 
 
-while cont <= 5 :
-
-    if(vet1[0]=="X" and vet1[1]=="X" and vet1[2]=="X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[3]=="X" and vet1[4]=="X" and vet1[5]=="X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[6]=="X" and vet1[7]=="X" and vet1[8] == "X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[0]=="X" and vet1[3] == "X" and vet1[6] == "X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[1]=="X" and vet1[4]=="X" and vet1[7]=="X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[2]=="X" and vet1[5] == "X" and vet1[8]== "X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[0]=="X" and vet1[4]=="X" and vet1[8]=="X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    elif(vet1[6]=="X" and vet1[4]=="X" and vet1[2]=="X"):
-        print("Voce venceu!Parabens!")
-        cond_verdade = True
-    else:
-        if(cond_aux == False):
-            cond_aux = False        
-    if(vet1[0]=="O" and vet1[1]=="O" and vet1[2]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[3]=="O" and vet1[4]=="O" and vet1[5]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[6]=="O" and vet1[7]=="O" and vet1[8]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[0]=="O" and vet1[3]=="O" and vet1[6]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[1]=="O" and vet1[4]=="O" and vet1[7]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[2]=="O" and vet1[5]=="O" and vet1[8]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[0]=="O" and vet1[4]=="O" and vet1[8]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    elif(vet1[6]=="O" and vet1[4]=="O" and vet1[2]=="O"):
-        print("Voce perdeu!Tente novamente.")
-        cond_verdade = True
-    else:
-        if(cond_aux == False):
-            cond_aux = False  
-
+def imprimir_tabela():
     print("\n|-----Posicoes------|----Jogo da Velha----|")
-    print("|    _%s_|_%s_|_%s_    |     _%s_|_%s_|_%s_     |" %(vet[6],vet[7],vet[8],vet1[6],vet1[7],vet1[8]))
-    print("|    _%s_|_%s_|_%s_    |     _%s_|_%s_|_%s_     |" %(vet[3],vet[4],vet[5],vet1[3],vet1[4],vet1[5]))
-    print("|     %s | %s | %s     |      %s | %s | %s      |" %(vet[0],vet[1],vet[2],vet1[0],vet1[1],vet1[2]))
-    print("|-------------------|---------------------|\n")        
+    print("|    _%s_|_%s_|_%s_    |     _%s_|_%s_|_%s_     |" %(posicoes[6],posicoes[7],posicoes[8],tabuleiro_velha[6],tabuleiro_velha[7],tabuleiro_velha[8]))
+    print("|    _%s_|_%s_|_%s_    |     _%s_|_%s_|_%s_     |" %(posicoes[3],posicoes[4],posicoes[5],tabuleiro_velha[3],tabuleiro_velha[4],tabuleiro_velha[5]))
+    print("|     %s | %s | %s     |      %s | %s | %s      |" %(posicoes[0],posicoes[1],posicoes[2],tabuleiro_velha[0],tabuleiro_velha[1],tabuleiro_velha[2]))
+    print("|-------------------|---------------------|\n")
 
+
+            
+while numero_de_jogadas_player < 5 :
+#Verificar Vitoria/Derrota
+    if(tabuleiro_velha[0]=="X" and tabuleiro_velha[1]=="X" and tabuleiro_velha[2]=="X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[3]=="X" and tabuleiro_velha[4]=="X" and tabuleiro_velha[5]=="X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[6]=="X" and tabuleiro_velha[7]=="X" and tabuleiro_velha[8] == "X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[0]=="X" and tabuleiro_velha[3] == "X" and tabuleiro_velha[6] == "X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[1]=="X" and tabuleiro_velha[4]=="X" and tabuleiro_velha[7]=="X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[2]=="X" and tabuleiro_velha[5] == "X" and tabuleiro_velha[8]== "X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[0]=="X" and tabuleiro_velha[4]=="X" and tabuleiro_velha[8]=="X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[6]=="X" and tabuleiro_velha[4]=="X" and tabuleiro_velha[2]=="X"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    else:
+        if(fim_de_jogo == False):
+            fim_de_jogo = False
+    if(tabuleiro_velha[0]=="O" and tabuleiro_velha[1]=="O" and tabuleiro_velha[2]=="O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[3]=="O" and tabuleiro_velha[4]=="O" and tabuleiro_velha[5]=="O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[6]=="O" and tabuleiro_velha[7]=="O" and tabuleiro_velha[8] == "O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[0]=="O" and tabuleiro_velha[3] == "O" and tabuleiro_velha[6] == "O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[1]=="O" and tabuleiro_velha[4]=="O" and tabuleiro_velha[7]=="O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[2]=="O" and tabuleiro_velha[5] == "O" and tabuleiro_velha[8]== "O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[0]=="O" and tabuleiro_velha[4]=="O" and tabuleiro_velha[8]=="O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    elif(tabuleiro_velha[6]=="O" and tabuleiro_velha[4]=="O" and tabuleiro_velha[2]=="O"):
+        print("Voce venceu!Parabens!")
+        cond_verdade = True
+    else:
+        if(fim_de_jogo == False):
+            fim_de_jogo = False            
+    imprimir_tabela()
+#verificar fim de jogo
     if(cond_verdade == True):
-        cont = 5
+        numero_de_jogadas_player = 5
         cond = True
-        cond_aux = True
+        fim_de_jogo = True
         end = True
+#Vez do jogador
     if(cond == False):
         print("Qual posicao quer joga?")
         jogada = int(input())
@@ -102,8 +107,8 @@ while cont <= 5 :
             cond = False
             cond2 = True
         elif(jogada <= 10 and jogada >= 1):
-            if(vet1[i]=="_" or vet1[i]==" "):
-                vet1[i]="X"
+            if(tabuleiro_velha[i]=="_" or tabuleiro_velha[i]==" "):
+                tabuleiro_velha[i]="X"
                 cond1 = False
                 cond2 = False
             else:                                               #Caso uma posicao ja tiver sido escolhida
@@ -112,26 +117,28 @@ while cont <= 5 :
                 print("Qual posicao quer joga?")
                 jogada = int(input())
                 i = jogada-1
-                if(vet1[i]=="_" or vet1[i]==" "):
-                    vet1[i]="X"
+                if(tabuleiro_velha[i]=="_" or tabuleiro_velha[i]==" "):
+                    tabuleiro_velha[i]="X"
                     cond1 = False
                     cond2 = False
-    cont+=1
+                
+    numero_de_jogadas_player+=1    
     end = False
+#vez do computador
     i = randint(0,8)
-    if(cont < 5):                           
+    if(numero_de_jogadas_player < 5):                           
         if(end != True):
             if(cond2 != True):
                 while cond == False:
                     if(cond1 != True):
-                        if(vet1[i]=="_" or vet1[i]==" "):
-                            vet1[i]="O"
+                        if(tabuleiro_velha[i]=="_" or tabuleiro_velha[i]==" "):
+                            tabuleiro_velha[i]="O"
                             cond=True
                         else:
                             i = randint(0,8)
     cond = False
-    if(cont == 5):
-        cond = True
-if(cond_aux == False):    
+    if(numero_de_jogadas_player == 5):
+        cond = True        
+if(fim_de_jogo == False):    
     print("\n O Jogo velhou!Vamos jogar novamente!")
 

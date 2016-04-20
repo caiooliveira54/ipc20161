@@ -77,85 +77,109 @@ while cont <= 5 :
                     cond2 = False
     cont+=1
     if(cond == False):
-        
         if(bloquear==False):
             #Horizontal
-            if((vet1[0]=="O" and vet1[1]=="O" and vet1[2]==" ") or (vet1[0]=="X" and vet1[1]=="X" and vet1[2]==" ")):
+            if((vet1[0]=="O" and vet1[1]=="O" and vet1[2]==" ")):
                 vet1[2]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[0]=="O" and vet1[1]==" " and vet1[2]=="O") or (vet1[0]=="X" and vet1[1]==" " and vet1[2]=="X")):
+            elif((vet1[0]=="O" and vet1[1]==" " and vet1[2]=="O")):
                 vet1[1]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[0]==" " and vet1[1]=="O" and vet1[2]=="O") or (vet1[0]==" " and vet1[1]=="X" and vet1[2]=="X")):
+            elif((vet1[0]==" " and vet1[1]=="O" and vet1[2]=="O")):
                 vet1[0]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[3]=="O" and vet1[4]=="O" and vet1[5]=="_") or (vet1[3]=="X" and vet1[4]=="X" and vet1[5]=="_")):
+            elif((vet1[3]=="O" and vet1[4]=="O" and vet1[5]=="_")):
                 vet1[5]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[3]=="O" and vet1[4]=="_" and vet1[5]=="O") or (vet1[3]=="X" and vet1[4]=="_" and vet1[5]=="X")):
+            elif((vet1[3]=="O" and vet1[4]=="_" and vet1[5]=="O")):
                 vet1[4]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[3]=="_" and vet1[4]=="O" and vet1[5]=="O") or (vet1[3]=="_" and vet1[4]=="X" and vet1[5]=="X")):
+            elif((vet1[3]=="_" and vet1[4]=="O" and vet1[5]=="O")):
                 vet1[3]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[6]=="O" and vet1[7]=="O" and vet1[8]=="_") or (vet1[6]=="X" and vet1[7]=="X" and vet1[8]=="_")):
+            elif((vet1[6]=="O" and vet1[7]=="O" and vet1[8]=="_")):
                 vet1[8]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[6]=="O" and vet1[7]=="_" and vet1[8]=="O") or (vet1[6]=="X" and vet1[7]=="_" and vet1[8]=="X")):
+            elif((vet1[6]=="O" and vet1[7]=="_" and vet1[8]=="O")):
                 vet1[7]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[6]=="_" and vet1[7]=="O" and vet1[8]=="O") or (vet1[6]=="_" and vet1[7]=="X" and vet1[8]=="X")):
+            elif((vet1[6]=="_" and vet1[7]=="O" and vet1[8]=="O")):
                 vet1[6]="O"
                 bloquear=True
                 cond=True
                 
         if(bloquear==False):    
             #Vertical
-            if((vet1[0]=="O" and vet1[3]=="O" and vet1[6]=="_") or (vet1[0]=="X" and vet1[3]=="X" and vet1[6]=="_")):
+            if((vet1[0]=="O" and vet1[3]=="O" and vet1[6]=="_")):
                 vet1[6]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[0]=="O" and vet1[3]=="_" and vet1[6]=="O") or (vet1[0]=="X" and vet1[3]=="_" and vet1[6]=="X")):
+            elif((vet1[0]=="O" and vet1[3]=="_" and vet1[6]=="O")):
                 vet1[3]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[0]==" " and vet1[3]=="O" and vet1[6]=="O") or (vet1[0]==" " and vet1[3]=="X" and vet1[6]=="X")):
+            elif((vet1[0]==" " and vet1[3]=="O" and vet1[6]=="O")):
                 vet1[0]="O"
                 bloquear=True
                 cond=True     
-            elif((vet1[1]=="O" and vet1[4]=="O" and vet1[7]=="_") or (vet1[1]=="X" and vet1[4]=="X" and vet1[7]=="_")):
+            elif((vet1[1]=="O" and vet1[4]=="O" and vet1[7]=="_")):
                 vet1[7]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[1]=="O" and vet1[4]=="_" and vet1[7]=="O") or (vet1[1]=="X" and vet1[4]=="_" and vet1[7]=="X")):
+            elif((vet1[1]=="O" and vet1[4]=="_" and vet1[7]=="O")):
                 vet1[4]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[1]==" " and vet1[4]=="O" and vet1[7]=="O") or (vet1[1]==" " and vet1[4]=="X" and vet1[7]=="X")):
+            elif((vet1[1]==" " and vet1[4]=="O" and vet1[7]=="O")):
                 vet1[1]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[2]=="O" and vet1[5]=="O" and vet1[8]=="_") or (vet1[2]=="X" and vet1[5]=="X" and vet1[8]=="_")):
+            elif((vet1[2]=="O" and vet1[5]=="O" and vet1[8]=="_")):
                 vet1[8]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[2]=="O" and vet1[5]=="_" and vet1[8]=="O") or (vet1[2]=="X" and vet1[5]=="_" and vet1[8]=="X")):
+            elif((vet1[2]=="O" and vet1[5]=="_" and vet1[8]=="O")):
                 vet1[5]="O"
                 bloquear=True
                 cond=True
-            elif((vet1[2]==" " and vet1[5]=="O" and vet1[8]=="O") or (vet1[2]==" " and vet1[5]=="X" and vet1[8]=="X")):
+            elif((vet1[2]==" " and vet1[5]=="O" and vet1[8]=="O")):
                 vet1[2]="O"
                 bloquear=True
-                cond=True
-                
+                cond=True     
+            if(bloquear==False):     
+                #Diagonal    
+                if(vet1[0]=="O" and vet1[4]=="O" and vet1[8]=="_"):
+                    vet1[8]="O"
+                    bloquear=True
+                    cond=True
+                elif(vet1[0]=="O" and vet1[4]=="_" and vet1[8]=="O"):
+                    vet1[4]="O"
+                    bloquear=True
+                    cond=True
+                elif(vet1[0]==" " and vet1[4]=="O" and vet1[8]=="O"):
+                    vet1[0]="O"
+                    bloquear=True
+                    cond=True       
+                elif(vet1[6]=="O" and vet1[4]=="O" and vet1[2]==" "):
+                    vet1[2]="O"
+                    bloquear=True
+                    cond=True
+                elif(vet1[6]=="O" and vet1[4]=="_" and vet1[2]=="O"):
+                    vet1[4]="O"
+                    bloquear=True
+                    cond=True
+                elif(vet1[6]=="_" and vet1[4]=="O" and vet1[2]=="O"):
+                    vet1[6]="O"
+                    bloquear=True
+                    cond=True                
         if(bloquear==False):     
             #Diagonal    
             if(vet1[0]=="O" and vet1[4]=="O" and vet1[8]=="_") or (vet1[0]=="X" and vet1[4]=="X" and vet1[8]=="_"):
@@ -181,12 +205,116 @@ while cont <= 5 :
             elif(vet1[6]=="_" and vet1[4]=="O" and vet1[2]=="O") or (vet1[6]=="_" and vet1[4]=="X" and vet1[2]=="X"):
                 vet1[6]="O"
                 bloquear=True
+                cond=True            
+        if(bloquear==False):
+            #Horizontal
+            if((vet1[0]=="X" and vet1[1]=="X" and vet1[2]==" ")):
+                vet1[2]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[0]=="X" and vet1[1]==" " and vet1[2]=="X")):
+                vet1[1]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[0]==" " and vet1[1]=="X" and vet1[2]=="X")):
+                vet1[0]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[3]=="X" and vet1[4]=="X" and vet1[5]=="_")):
+                vet1[5]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[3]=="X" and vet1[4]=="_" and vet1[5]=="X")):
+                vet1[4]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[3]=="_" and vet1[4]=="X" and vet1[5]=="X")):
+                vet1[3]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[6]=="X" and vet1[7]=="X" and vet1[8]=="_")):
+                vet1[8]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[6]=="X" and vet1[7]=="_" and vet1[8]=="X")):
+                vet1[7]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[6]=="_" and vet1[7]=="X" and vet1[8]=="X")):
+                vet1[6]="O"
+                bloquear=True
+                cond=True
+                
+        if(bloquear==False):    
+            #Vertical
+            if((vet1[0]=="X" and vet1[3]=="X" and vet1[6]=="_")):
+                vet1[6]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[0]=="X" and vet1[3]=="_" and vet1[6]=="X")):
+                vet1[3]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[0]==" " and vet1[3]=="X" and vet1[6]=="X")):
+                vet1[0]="O"
+                bloquear=True
+                cond=True     
+            elif((vet1[1]=="X" and vet1[4]=="X" and vet1[7]=="_")):
+                vet1[7]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[1]=="X" and vet1[4]=="_" and vet1[7]=="X")):
+                vet1[4]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[1]==" " and vet1[4]=="X" and vet1[7]=="X")):
+                vet1[1]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[2]=="X" and vet1[5]=="X" and vet1[8]=="_")):
+                vet1[8]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[2]=="X" and vet1[5]=="_" and vet1[8]=="X")):
+                vet1[5]="O"
+                bloquear=True
+                cond=True
+            elif((vet1[2]==" " and vet1[5]=="X" and vet1[8]=="X")):
+                vet1[2]="O"
+                bloquear=True
+                cond=True
+                
+        if(bloquear==False):     
+            #Diagonal    
+            if(vet1[0]=="X" and vet1[4]=="X" and vet1[8]=="_"):
+                vet1[8]="O"
+                bloquear=True
+                cond=True
+            elif(vet1[0]=="X" and vet1[4]=="_" and vet1[8]=="X"):
+                vet1[4]="O"
+                bloquear=True
+                cond=True
+            elif(vet1[0]==" " and vet1[4]=="X" and vet1[8]=="X"):
+                vet1[0]="O"
+                bloquear=True
+                cond=True       
+            elif(vet1[6]=="X" and vet1[4]=="X" and vet1[2]==" "):
+                vet1[2]="O"
+                bloquear=True
+                cond=True
+            elif(vet1[6]=="X" and vet1[4]=="_" and vet1[2]=="X"):
+                vet1[4]="O"
+                bloquear=True
+                cond=True
+            elif(vet1[6]=="_" and vet1[4]=="X" and vet1[2]=="X"):
+                vet1[6]="O"
+                bloquear=True
                 cond=True     
         if(bloquear==False):    
             #Triangulo 
             if(vet1[4] == "_"):
                 vet1[4] = "O"
-                cond=True
+                cond=True 
             elif(vet1[4] =="X"):
                 if(vet1[0]==" " or vet1[2]==" " or vet1[6]=="_" or vet1[8]=="_"):
                     i=randint(1,4)
