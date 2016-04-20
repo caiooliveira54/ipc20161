@@ -1,5 +1,6 @@
 # Mateus Mota de Souza - 1615310016
 # Nahan Trindade Passos - 1615310021
+
 import random
 print ("Pedra, Papel, Tesoura, Spock e Lagarto - v1 \n")
 
@@ -80,5 +81,3 @@ for i in range(quantidade):
             print ("\nAparentemente empatamos "+ nome + ", você escolheu lagarto e eu também\n")
 
 print ("\nObrigado por jogar, quem sabe não tentamos uma partida futuramente, você ganhou", vitoria, "vez(es), parabéns")
-            
-            
