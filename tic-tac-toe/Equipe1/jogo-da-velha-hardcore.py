@@ -180,32 +180,6 @@ while cont <= 5 :
                     vet1[6]="O"
                     bloquear=True
                     cond=True                
-        if(bloquear==False):     
-            #Diagonal    
-            if(vet1[0]=="O" and vet1[4]=="O" and vet1[8]=="_") or (vet1[0]=="X" and vet1[4]=="X" and vet1[8]=="_"):
-                vet1[8]="O"
-                bloquear=True
-                cond=True
-            elif(vet1[0]=="O" and vet1[4]=="_" and vet1[8]=="O") or (vet1[0]=="X" and vet1[4]=="_" and vet1[8]=="X"):
-                vet1[4]="O"
-                bloquear=True
-                cond=True
-            elif(vet1[0]==" " and vet1[4]=="O" and vet1[8]=="O") or (vet1[0]==" " and vet1[4]=="X" and vet1[8]=="X"):
-                vet1[0]="O"
-                bloquear=True
-                cond=True       
-            elif(vet1[6]=="O" and vet1[4]=="O" and vet1[2]==" ") or (vet1[6]=="X" and vet1[4]=="X" and vet1[2]==" "):
-                vet1[2]="O"
-                bloquear=True
-                cond=True
-            elif(vet1[6]=="O" and vet1[4]=="_" and vet1[2]=="O") or (vet1[6]=="X" and vet1[4]=="_" and vet1[2]=="X"):
-                vet1[4]="O"
-                bloquear=True
-                cond=True
-            elif(vet1[6]=="_" and vet1[4]=="O" and vet1[2]=="O") or (vet1[6]=="_" and vet1[4]=="X" and vet1[2]=="X"):
-                vet1[6]="O"
-                bloquear=True
-                cond=True            
         if(bloquear==False):
             #Horizontal
             if((vet1[0]=="X" and vet1[1]=="X" and vet1[2]==" ")):
