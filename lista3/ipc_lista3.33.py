@@ -1,10 +1,14 @@
-#Introduçao a programaçao de computadores
-#Professor: Jucimar Junior
-#Thiago Santos Borges//Matricula->1615310023
-#Lorene da Silva Marques//Matricula->1615310013
-#Matheus Palheta Barbosa//Matricula->1615310019
-#Luiz Alexandre Olivera de Souza//Matricula->1615310057
-#Nadine da Cunha Brito//Matricula->1615310040
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 4
+#
+#Bruno de Oliveira Freire - 1615310030
+#Igor Menezes Sales Vieira - 1615310007
+#Matheus Mota de Souza - 1615310016
+#Nadine da Cunha Brito - 1615310040
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Thiago Santos Borges - 1615310023
 #
 
 quantidade = int(input("Insira a quantidade de temperaturas a serem usadas: "))
@@ -23,4 +27,3 @@ while (cont<quantidade):
     soma = soma + temperatura
     media = soma / quantidade
 print ("A maior temperatura e %d \nA menor temperatura e %d \nA media das temperaturas e %.1d"%(maior, menor, media))
-
