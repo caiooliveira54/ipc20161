@@ -1,11 +1,16 @@
-#Introdução a programação de computadores
-#Professor: Jucimar Junior
-#Thiago Santos Borges - 1615310023
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 4
+#
 #Bruno de Oliveira Freire - 1615310030
-#Nickso Patrick Façanha Calheiros - 1615310059
-#Mateus Mota de Souza - 1615310016
 #Igor Menezes Sales Vieira - 1615310007
+#Matheus Mota de Souza - 1615310016
 #Nadine da Cunha Brito - 1615310040
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Thiago Santos Borges - 1615310023
+#
+
 N  = int(input("N:"))
 cont = 1
 H = 0
