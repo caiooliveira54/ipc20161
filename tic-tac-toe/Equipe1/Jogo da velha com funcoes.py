@@ -1,6 +1,6 @@
 #
 #Introdução a Programação de Computadores
-#Professor: Jucimar JR.
+#Professor: Jucimar Jr.
 #EQUIPE 1
 #
 #Any Mendes Carvalho - 1615310044
@@ -9,8 +9,15 @@
 #Eduardo Maia Freire - 1615310003
 #Luiz Gustavo de Rocha Melo - 1615310015
 #Matheus Palheta Barbosa -1615310019
+#Mateus Mota de Souza - 1615310016
+#Ariel Guilherme - 1615310029
+#Felipe Henrique Bastos Costa - 1615310032
+#Lorene da Silva Marques - 1615310013
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Igor Menezes Sales Vieira - 1615310007
+#Lucas Ferreira Soares - 1615310014
 #
-# Jogo da Velha Impossivel de Ganhar
+
 
 from random import *
 
@@ -18,12 +25,9 @@ vet1=[" "," "," ","_","_","_","_","_","_"]
 vet=[1,2,3,4,5,6,7,8,9]
 i = 0            
 jogadas = 0
-cond_aux = False
 cond = False
 cond1 = False
-cond_verdade = False
-cond2 = False
-end = False 
+cond2 = False 
 bloquear=False
 fim_de_jogo = False
 
@@ -65,16 +69,22 @@ def verificar_posicao_ocupada(jogada):
 def vez_jogador():
     cond1 = False
     cond2 = False
-    jogada = 0
-    while(cond1 == False or cond2 == False):
+    cond = False
+    while(cond ==  False):
         print("Qual posicao quer joga?")
         jogada = int(input())        
         cond1 = verifica_posicao_valida(jogada)
-        if(cond1):
+        if(cond1 == True):
             cond2 = verificar_posicao_ocupada(jogada)
-    i = jogada-1
-    vet1[i] = "X"
-
+            if(cond2 == False):
+                cond = False
+            else:
+                i = jogada-1
+                vet1[i] = "X"
+                cond = True
+        if(cond1 == False):
+            cond = False
+            
 def jogar_linha(symbol):
     for i in range(0,9,3):
         if((vet1[i]==symbol and vet1[i+1]==symbol)):
@@ -132,65 +142,82 @@ def vez_computador():
     print("Vez computador")
     bloquear = False
     cond = False
-    #Ganhar
-    if(bloquear==False):
-        #Horizontal
-        bloquear = jogar_linha("O")
-    
-    if(bloquear==False):    
-        #Vertical
-        bloquear = jogar_coluna("O")
-            
-    if(bloquear==False):     
-        #Diagonal    
-        bloquear = jogar_diagonal("O")
-        
-    #bloquear
-    if(bloquear==False):
-        #Horizontal
-        bloquear = jogar_linha("X")
-        
-    if(bloquear==False):    
-        #Vertical
-        bloquear = jogar_coluna("X")
+    if(cond == False):
+        #Ganhar
+        if(bloquear==False):
+            #Horizontal
+            bloquear = jogar_linha("O")
+            cond = True
+        if(bloquear==False):    
+            #Vertical
+            bloquear = jogar_coluna("O")
+            cond = True            
+        if(bloquear==False):     
+            #Diagonal    
+            bloquear = jogar_diagonal("O")
+            cond = True
+        #bloquear
+        if(bloquear==False):
+            #Horizontal
+            bloquear = jogar_linha("X")
+            cond = True
+        if(bloquear==False):    
+            #Vertical
+            bloquear = jogar_coluna("X")
+            cond = True
+        if(bloquear==False):     
+            #Diagonal    
+            bloquear = jogar_diagonal("X")
+            cond = True
+      
+        if(bloquear==False):    
+            #Triangulo
+            if(vet1[4] == "_"):
+                vet1[4] = "O"
+                cond=True 
+            elif(vet1[4] =="X"):
+                if(vet1[0]==" " or vet1[2]==" " or vet1[6]=="_" or vet1[8]=="_"):
+                    i=choice([0,2,6,8])
+                    vet1[i]="O"
+                    cond=True
 
-    if(bloquear==False):     
-        #Diagonal    
-        bloquear = jogar_diagonal("X")
-    
-  
-    if(bloquear==False):    
-        #Triangulo
-        if(vet1[4] == "_"):
-            vet1[4] = "O"
-            cond=True 
-        elif(vet1[4] =="X"):
-            if(vet1[0]==" " or vet1[2]==" " or vet1[6]=="_" or vet1[8]=="_"):
-                i=choice([0,2,4,8])
-                vet1[i]="O"
-                cond=True
+            elif(vet1[6] == "X" and vet1[4] == "O" and vet1[2] == "X") or (vet1[8] == "X" and vet1[4] == "O" and vet1[0] == "X"):
+                if(vet1[1]==" " or vet1[3]==" " or vet1[5]=="_" or vet1[7]=="_"):
+                    i=choice([1,3,5,7])
+                    vet1[i]="O"
+                    cond=True
 
-        elif(vet1[6] == "X" and vet1[4] == "O" and vet1[2] == "X") or (vet1[8] == "X" and vet1[4] == "O" and vet1[0] == "X"):
-            if(vet1[1]==" " or vet1[3]==" " or vet1[5]=="_" or vet1[7]=="_"):
-                i=choice([1,3,5,7])
-                vet1[i]="O"
-                cond=True
-
-        else:
-            while cond == False:
-                i = randint(0,8)
-                if(vet1[i] == " " or vet1[i] == "_"):
-                    vet1[i] = "O"
-                    cond = True
-                elif(vet[i] == "X"):
-                    i = randint(0,8)
-
-
+            else:
+                if(vet1[0]==" "):
+                    vet1[0]="O"
+                    cond=True
+                elif(vet1[2]==" "):
+                    vet1[2]="O"
+                    cond=True
+                elif(vet1[6]=="_"):
+                    vet1[6]="O"
+                    cond=True
+                elif(vet1[8]=="_"):
+                    vet1[8]="O"
+                    cond=True                       
+                elif(vet1[1]==" "):
+                    vet1[1]="O"
+                    cond=True
+                elif(vet1[3]=="_"):
+                    vet1[3]="O"
+                    cond=True
+                elif(vet1[5]=="_"):
+                    vet1[5]="O"
+                    cond=True
+                elif(vet1[7]=="_"):
+                    vet1[7]="O"
+                    cond=True                
+             
 def verificar_velha():
     global jogadas
     jogadas = jogadas + 1
     if(jogadas >= 9):
-        print("O jogo velhou")
+        print("O jogo velhou!Vamos jogar novamente.")
         return True
     else:
         return False
@@ -202,10 +229,10 @@ while fim_de_jogo == False:
     fim_de_jogo = verificar_vitoria()
     if(fim_de_jogo == False):
         fim_de_jogo = verificar_velha()
-    imprimir_tabela()
-    if(fim_de_jogo == False):
-        vez_computador()
-        fim_de_jogo = verificar_derrota()
-        if(fim_de_jogo == False):
-            fim_de_jogo = verificar_velha()
         imprimir_tabela()
+        if(fim_de_jogo == False):
+            vez_computador()
+            fim_de_jogo = verificar_derrota()
+            if(fim_de_jogo == False):
+                fim_de_jogo = verificar_velha()
+            imprimir_tabela()
