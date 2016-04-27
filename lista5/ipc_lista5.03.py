@@ -32,10 +32,10 @@ def multiplicar_matrizes(matrizA,matrizB):
 
 linhasA = int(input("Numero de linhas da matriz A: "))
 colunaAlinhaB = int(input("Numero de colunas da matriz A e linhas matriz B: "))
-linhasB = int(input("Numero de colunas da matriz B: "))
+colunaB = int(input("Numero de colunas da matriz B: "))
 print("Matriz A")
 A = criar_matriz(linhasA,colunaAlinhaB)
 print("Matriz B")
-B = criar_matriz(linhasB,colunaAlinhaB)
+B = criar_matriz(colunaAlinhaB,colunaB)
 C = multiplicar_matrizes(A,B)
 print("Matriz A * Matriz B -> ",C)
