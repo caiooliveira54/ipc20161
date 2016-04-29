@@ -9,7 +9,7 @@ def gerar_matriz(m, n):
     return matriz
     
     
-def verificar_permutaçao (matriz, linha, coluna):
+def verificar_permutacao (matriz, linha, coluna):
     for i in range (linha):
         ac = 0
         ac2 = 0
