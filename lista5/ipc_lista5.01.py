@@ -1,24 +1,8 @@
-# Ana Beatriz Frota - 1615310027
-# Mateus Mota de Souza - 1615310016
-# Nahan Trindade Passos - 1615310021 
+#Calebe Roberto Chaves da Silva Rebello - 1615310043
+#Luiz Gustavo Rocha Melo - 1615310015
+#Lucas Ferreira Soares - 1615310014
 
-def gerar_matriz(m, n):
-    matriz = []
-    for i in range(1, m+1):
-        linha = []
-        for j in range(1, n+1):
-            num = int(input("A(%d%d):\t"%(i, j)))
-            linha.append(num)
-        matriz.append(linha)
-    return matriz
-
-def gerar_vetor(n):
-    vetor = []
-    for i in range(n):
-        num = int(input("V(%d): \t"%(i)))
-        vetor.append(num)
-    return vetor
-
+from matriz import*
 linhas = int(input("Quantidade de linhas: "))
 colunas = int(input("Quantidade de colunhas: "))
 matriz = gerar_matriz(linhas, colunas)
