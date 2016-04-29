@@ -7,6 +7,25 @@ def gerar_matriz(m, n):
             linha.append(num)
         matriz.append(linha)
     return matriz
+    
+    
+def verificar_permutaçao (matriz, linha, coluna):
+    for i in range (linha):
+        ac = 0
+        ac2 = 0
+        for j in range(coluna):
+            if matriz[i][j] == 0 or matriz[i][j]== 1: 
+                if matriz[i][j] == 1:
+                    ac += 1
+                if matriz[j][i] == 1:
+                    ac2 += 1
+            else:
+                return ("Nao e de permutaçao")
+        if (ac == 1 and ac2 == 1):
+            return ("E de permutaçao")
+        else:
+            return("Nao e permutaçao")
+
 
 def arrumar_matriz(matriz, linhas):
 	for i in range(linhas):
