@@ -1,3 +1,6 @@
+#Nickso Patrick Façanha Calheiros - 1615310059
+#
+#
 from matriz import*
 
 def verificar_nulas (matriz,linha, coluna):
