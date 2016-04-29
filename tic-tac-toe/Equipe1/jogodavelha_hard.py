@@ -58,7 +58,7 @@ while cont <= 5 :
         i = jogada-1
         if(jogada > 9 or jogada < 1):
             print("Jogada invalida!Escolha  um numero entre 1 e 9!")
-            cond = False
+            cond = True
             cond2 = True
         elif(jogada <= 10 and jogada >= 1):
             if(vet1[i]=="_" or vet1[i]==" "):
