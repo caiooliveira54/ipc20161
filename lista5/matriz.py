@@ -8,6 +8,10 @@ def gerar_matriz(m, n):
         matriz.append(linha)
     return matriz
 
+def arrumar_matriz(matriz, linhas):
+	for i in range(linhas):
+		print(matriz[i])
+
 
 def gerar_vetor(n):
     vetor = []
