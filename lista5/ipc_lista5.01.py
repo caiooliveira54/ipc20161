@@ -17,4 +17,4 @@ for i in range(linhas):
         acm += matriz[i][j] * vetor[j]
     produto.append(acm)
 
-print ("Matriz * Vetor =", produto).
+print ("Matriz * Vetor =", produto
