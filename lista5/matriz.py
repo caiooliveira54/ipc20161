@@ -27,7 +27,7 @@ def verificar_permutacao (matriz, linha, coluna):
             return("Nao e permutaçao")
 
 
-def arrumar_matriz(matriz, linhas):
+def mostrar_matriz(matriz, linhas):
 	for i in range(linhas):
 		print(matriz[i])
 
@@ -46,12 +46,13 @@ def multiplicar_matrizes(matrizA,matrizB):
     colunasA = len(matrizA[0])
     linhasB = len(matrizB)
     colunasB = len(matrizB[0])
-    acm = 0
     
     for i in range(linhasA):
-        for j in range(colunasA):
-            valor = 0
+        linhac = []
+        for j in range(colunasB):
+            acm = 0
             for k in range(linhasB):   
-                valor += matrizA[i][k] * matrizB[k][j]
-            matrizC.append(valor)
+                acm += matrizA[i][k] * matrizB[k][j]
+            linhac.append(valor)
+        matrizC.append(linhac)
     return matrizC
