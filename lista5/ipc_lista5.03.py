@@ -4,38 +4,21 @@
 
 """Dadas duas matrizes reais  Amxn e Bnxp, calcular o produto de A por B"""
 
-def criar_matriz(n_linhas,n_colunas):
-    matriz = []
-    for i in range(1,n_linhas + 1):
-        linha = []
-        for j in range(1,n_colunas + 1):
-            valor = float(input("Elemento %i%i: "%(i,j)))
-            linha.append(valor)
-        matriz.append(linha)
-    return matriz
+from matriz import*
 
-def multiplicar_matrizes(matrizA,matrizB):
-    matrizC = []
-    linhasA = len(matrizA)
-    colunasA = len(matrizA[0])
-    linhasB = len(matrizB)
-    colunasB = len(matrizB[0])
-    acm = 0
-    
-    for i in range(linhasA):
-        for j in range(colunasA):
-            valor = 0
-            for k in range(linhasB):   
-                valor += matrizA[i][k] * matrizB[k][j]
-            matrizC.append(valor)
-    return matrizC
-
-linhasA = int(input("Numero de linhas da matriz A: "))
-colunaAlinhaB = int(input("Numero de colunas da matriz A e linhas matriz B: "))
-colunaB = int(input("Numero de colunas da matriz B: "))
+print("Digite o tamanho da matriz A")
+linhasA = int(input("Linhas: "))
+colunaA = int(input("Colunas: "))
 print("Matriz A")
-A = criar_matriz(linhasA,colunaAlinhaB)
-print("Matriz B")
-B = criar_matriz(colunaAlinhaB,colunaB)
-C = multiplicar_matrizes(A,B)
-print("Matriz A * Matriz B -> ",C)
+matrizA = criar_matriz(linhasA,colunaA)
+print("Digite o tamanho da matriz B")
+linhaB = int(input("Linhas: "))
+colunaB = int(input("Colunas: "))
+if colunaA != linhaB:
+    print("Nao existe produto da matriz A por B")
+else:
+    print("Matriz B")
+    matrizB = criar_matriz(linhaB,colunaB)
+    matrizC = multiplicar_matrizes(matrizA,matrizB)
+    print("Matriz A * Matriz B -> ",matrizC)
+
