@@ -53,6 +53,6 @@ def multiplicar_matrizes(matrizA,matrizB):
             acm = 0
             for k in range(linhasB):   
                 acm += matrizA[i][k] * matrizB[k][j]
-            linhac.append(valor)
+            linhac.append(acm)
         matrizC.append(linhac)
     return matrizC
