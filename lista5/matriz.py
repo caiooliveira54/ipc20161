@@ -20,11 +20,11 @@ def verificar_permutacao (matriz, linha, coluna):
                 if matriz[j][i] == 1:
                     ac2 += 1
             else:
-                return ("Nao e de permutaçao")
+                return ("Nao e de permutacao")
         if (ac == 1 and ac2 == 1):
-            return ("E de permutaçao")
+            return ("E de permutacao")
         else:
-            return("Nao e permutaçao")
+            return("Nao e permutacao")
 
 def verificar_nulas (matriz,linha, coluna):
     ac_linha = 0
@@ -74,3 +74,13 @@ def multiplicar_matrizes(matrizA,matrizB):
             linhac.append(acm)
         matrizC.append(linhac)
     return matrizC
+
+def verificar_repeticao(matriz,linhas,colunas):
+    lista = []
+    for i in range(linhas):
+        for j in range(colunas):
+            lista.append(matriz[i][j])
+    if len(lista) == len(set(lista)):
+        return "Nao existem elementos repetidos na matriz"
+    else:
+        return "Existem elementos repetidos na matriz"
