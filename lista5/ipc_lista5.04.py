@@ -10,4 +10,5 @@ linhas = int(input("Informe quantas linhas tem a matriz: "))
 colunas = int(input("Informe quantas colunas tem a matriz: "))
 matrizA = gerar_matriz(linhas,colunas)
 mostrar_matriz(matrizA,linhas)
-print(verificar_numeros_repetidos(matrizA,linhas,colunas))
+
+print(verificar_repeticao(matrizA,linhas,colunas))
