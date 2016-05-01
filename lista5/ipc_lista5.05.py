@@ -8,5 +8,5 @@ n = int(input( ))
 matriz = []
 matriz = gerar_matriz(m,n)
 arrumar_matriz(matriz, m)
-x = verificar_permutaçao(matriz,m,n)
+x = verificar_permutacao(matriz,m,n)
 print(x)
