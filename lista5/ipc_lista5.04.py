@@ -3,7 +3,7 @@
 #Felipe Henrique Bastos Costa - 1615310032;
 #Bruno de Oliveira freire - 1615310030;
 #Samuel Silva de França- 1615310049;
-#Lista 5, questao 4;
+
 from matriz import*
 
 linhas = int(input("Informe quantas linhas tem a matriz: "))
