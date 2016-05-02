@@ -1,3 +1,5 @@
+#Introducao a programacao de computadores
+#Professor: Jucimar Junior
 #Thiago Santos Borges - 1615310023
 #Antônio Rodrigues de Souza Neto - 1615310028
 #Aberto
