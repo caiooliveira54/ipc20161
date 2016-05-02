@@ -121,3 +121,9 @@ def verificar_cubo(lista):
         print ("É um cubo mágico")
     else:
         print ("Não é um cubo mágico")
+        
+def verificar(matriz, R):
+    if R != B:
+        print ("Resultado incorreto da matriz")
+    else:
+        print ("Resultado correto") 
