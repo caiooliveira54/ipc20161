@@ -1,3 +1,5 @@
+#Introducao a programacao de computadores
+#Professor: Jucimar Junior
 # Ana Beatriz Faria Frota
 # Mateus Mota de Souza
 # Nahan Trindade Passos
