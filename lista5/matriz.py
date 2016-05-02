@@ -127,3 +127,10 @@ def verificar(matriz, R):
         print ("Resultado incorreto da matriz")
     else:
         print ("Resultado correto") 
+
+def multiplicacaovetor(matriz, X, B, R):
+    for i in range(n):
+        j = 0
+        c = 0
+        k = X[c] * matriz[i][j] + X[c+1] * matriz[i][j+1]
+        R.append(k)
