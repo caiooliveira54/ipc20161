@@ -24,7 +24,7 @@ while(continua):
     for i in range(len(sistemas)-1):
         print(sistemas[i])
         
-    escolha = int(raw_input())
+    escolha = int(input())
     
     if(escolha == 1):
         votos[escolha - 1] += 1

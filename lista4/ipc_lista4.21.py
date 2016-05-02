@@ -15,11 +15,11 @@ menor_consumo=0
 
 pos=0
 
-print " "
+print (" ")
 
-print "Comparativo de Consumo de Combustível" 
+print ("Comparativo de Consumo de Combustível")
 
-print " "
+print (" ")
 
 for i in range (5):
     carro=raw_input('Veículo: ' )
@@ -27,7 +27,7 @@ for i in range (5):
     
     carros.append(carro)
     kmsporlitro.append(kmporlitro)
-    print " "
+    print (" ")
     
 for i in kmsporlitro:
     litrosparamilkm= 1000 / i
@@ -40,10 +40,10 @@ for i in litrospara1000:
     
     precopara1000.append(round(precoparamilkm,2))
 
-print "  "
-print "Relaatório Final:"
-print " "
-print "Modelo:  KM/L:  Consumo para Mil KM:  Preço em R$ para Mil KM:"
+print ("  ")
+print ("Relaatório Final:")
+print (" ")
+print ("Modelo:  KM/L:  Consumo para Mil KM:  Preço em R$ para Mil KM:")
     
 for i in range (5):
     
