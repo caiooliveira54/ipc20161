@@ -14,5 +14,5 @@ matriz = gerar_matriz(m,n)
 
 mostrar_matriz(matriz,m)
 
-a = verificar_nulas(matriz,m,n)
-print (a)
+x = verificar_nulas(matriz,m,n)
+print (x)
