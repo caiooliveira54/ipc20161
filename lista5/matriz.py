@@ -128,7 +128,7 @@ def verificar(matriz, R):
     else:
         print ("Resultado correto") 
 
-def multiplicacaovetor(matriz, X, B, R):
+def multiplicar_vetor(matriz, X, B, R):
     for i in range(n):
         j = 0
         c = 0
