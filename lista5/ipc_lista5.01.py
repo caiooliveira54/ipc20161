@@ -1,3 +1,5 @@
+#Introducao a programacao de computadores;
+#Professor: Jucimar Junior;
 #Calebe Roberto Chaves da Silva Rebello - 1615310043
 #Luiz Gustavo Rocha Melo - 1615310015
 #Lucas Ferreira Soares - 1615310014
