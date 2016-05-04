@@ -134,3 +134,4 @@ def multiplicar_vetor(matriz, X, B, R):
         c = 0
         k = X[c]* matriz[i][j] + X[c+1] * matriz[i][j+1]
         R.append(k)
+    return (R)
