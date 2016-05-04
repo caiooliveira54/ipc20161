@@ -2,9 +2,9 @@
 #Professor: Jucimar Junior
 #Ana Jessye Almeida Antunes- 1615310046
 #Kylciane Cristiny Lopes Freitas - 1615310052
-#Franklin Yuri Gonçalves dos Santos - 1615310033
+#Franklin Yuri GonÃ§alves dos Santos - 1615310033
 
-#Um vetor real X com n elementos é apresentado como resultado de um sistema de equações lineares Ax = B cujos coeficientes são representados em uma matriz real Amxn e os lados direitos das equações em um vetor real B de m elementos. Verificar se o vetor X é realmente solução do sistema dado.
+#Um vetor real X com n elementos Ã© apresentado como resultado de um sistema de equaÃ§Ãµes lineares Ax = B cujos coeficientes sÃ£o representados em uma matriz real Amxn e os lados direitos das equaÃ§Ãµes em um vetor real B de m elementos. Verificar se o vetor X Ã© realmente soluÃ§Ã£o do sistema dado.
  
 from matriz import*  
 
@@ -26,7 +26,7 @@ print(B)
 
 print ("Multiplicacao do sistema")
 R = []
-multiplicacaovetor(matriz, X, B, R)
+multiplicar_vetor(matriz, X, B, R)
 print(R)
 
 print ("Verificacao de resultado")
