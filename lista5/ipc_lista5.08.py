@@ -24,8 +24,8 @@ vetor = []
 for n in range(0,n+1):                                  #Processamento
     vet = []
     for i in range(0,n+1):
-        vet.append(analise_c(n,i))
-        vetor.append(analise_c(n,i))
+        vet.append(int(analise_c(n,i)))
+        vetor.append(int(analise_c(n,i)))
     print(vet)                                          #Triângulo de Pascal
 print(vetor)                                            #Triângulo de Pascal apenas em um vetor
         
