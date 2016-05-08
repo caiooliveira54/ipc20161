@@ -7,7 +7,16 @@ def gerar_matriz(m, n):
             linha.append(num)
         matriz.append(linha)
     return matriz
-    
+
+def gerar_matriz_vazia(m, n):
+    matriz = []
+    for i in range(1, m+1):
+        linha = []
+        for j in range(1, n+1):
+            num = 0
+            linha.append(num)
+        matriz.append(linha)
+    return matriz
     
 def verificar_permutacao (matriz, linha, coluna):
     for i in range (linha):
@@ -135,3 +144,41 @@ def multiplicar_vetor(matriz, X, B, R):
         k = X[c]* matriz[i][j] + X[c+1] * matriz[i][j+1]
         R.append(k)
     return (R)
+
+#verifica a casa adjacente a posicao centro_linha/centro_coluna na matriz
+def verificar_entorno_casa(matriz, centro_linha, centro_coluna, posicao):
+    centro = matriz[centro_linha][centro_coluna]
+    #posicoes adjacentes
+    #0 == centro  
+    #1|2|3
+    #8|0|4
+    #7|6|5  
+    if(posicao == 1):
+        return verificar_posicao_valida(matriz, centro_linha-1, centro_coluna-1)            
+    if(posicao == 2):
+        return verificar_posicao_valida(matriz, centro_linha-1, centro_coluna)  
+    if(posicao == 3):
+        return verificar_posicao_valida(matriz, centro_linha-1, centro_coluna+1)
+    if(posicao == 4):
+        return verificar_posicao_valida(matriz, centro_linha, centro_coluna+1)    
+    if(posicao == 5):
+        return verificar_posicao_valida(matriz, centro_linha+1, centro_coluna+1)
+    if(posicao == 6):
+        return verificar_posicao_valida(matriz, centro_linha+1, centro_coluna)    
+    if(posicao == 7):
+        return verificar_posicao_valida(matriz, centro_linha+1, centro_coluna-1)
+    if(posicao == 8):
+        return verificar_posicao_valida(matriz, centro_linha, centro_coluna-1)    
+
+#verifica se a posicao dada e valida na matriz
+def verificar_posicao_valida(matriz, linha, coluna):     
+    if(linha < 0):
+        return "Invalido"
+    elif(linha >= len(matriz)):
+        return "Invalido"
+    elif(coluna < 0):
+        return "Invalido"
+    elif(coluna >= len(matriz[0])):
+        return "Invalido"
+    else:
+        return matriz[linha][coluna]
