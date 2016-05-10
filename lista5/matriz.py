@@ -84,7 +84,7 @@ def multiplicar_matrizes(matrizA,matrizB):
         matrizC.append(linhac)
     return matrizC
 
-def verificar_repeticao(matriz,linhas,colunas):
+def verificar_repeticao(matriz, linhas, colunas):
     lista = []
     for i in range(linhas):
         for j in range(colunas):
