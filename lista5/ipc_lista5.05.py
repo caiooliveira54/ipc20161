@@ -10,6 +10,6 @@ m = int(input("quantidade de linhas: " ))
 n = int(input("quantidade de colunas: "))
 matriz = []
 matriz = gerar_matriz(m,n)
-montar_matriz(matriz, m)
+mostrar_matriz(matriz, m)
 x = verificar_permutacao(matriz,m,n)
 print(x)
