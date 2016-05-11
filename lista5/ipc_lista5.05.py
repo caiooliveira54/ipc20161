@@ -6,7 +6,7 @@
 
 from matriz import*
 
-m = int(input( ))
+m = int(input("quantidade de linhas: " ))
 n = int(input( ))
 matriz = []
 matriz = gerar_matriz(m,n)
