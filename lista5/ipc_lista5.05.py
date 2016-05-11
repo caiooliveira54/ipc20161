@@ -7,7 +7,7 @@
 from matriz import*
 
 m = int(input("quantidade de linhas: " ))
-n = int(input(quantidade de colunas ))
+n = int(input("quantidade de colunas: "))
 matriz = []
 matriz = gerar_matriz(m,n)
 arrumar_matriz(matriz, m)
