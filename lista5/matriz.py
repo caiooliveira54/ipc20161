@@ -1,6 +1,6 @@
 def gerar_matriz( m, n):
     matriz = []
-    for i in range(1, m+1):
+    for i in range(m):
         linha = []
         for j in range(1, n+1):
             num = int(input("A(%d%d):\t"%(i, j)))
