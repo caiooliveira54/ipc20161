@@ -2,7 +2,7 @@
 #Professor: Jucimar Junior;
 #Felipe Henrique Bastos Costa - 1615310032;
 #Bruno de Oliveira freire - 1615310030;
-#Samuel Silva de França- 1615310049;
+#Samuel Silva de França- 161531004;
 
 from matriz import*
 
