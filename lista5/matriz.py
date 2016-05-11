@@ -2,7 +2,7 @@ def gerar_matriz( m, n):
     matriz = []
     for i in range(m):
         linha = []
-        for j in range(1, n+1):
+        for j in range(n):
             num = int(input("A(%d%d):\t"%(i, j)))
             linha.append(num)
         matriz.append(linha)
