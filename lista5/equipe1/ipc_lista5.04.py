@@ -1,3 +1,10 @@
+#Introducao a programacao de computadores
+#Professor: Jucimar Junior
+
+
+
+
+
 def criar_matriz(linha, coluna):
     matriz = []
     for i in range(linha):
