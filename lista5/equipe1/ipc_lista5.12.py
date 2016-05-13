@@ -1,3 +1,9 @@
+#Introducao a programacao de computadores
+#Professor: Jucimar Junior
+
+
+
+
 def cadastrar_funcionarios(funcionarios, colunas):
     cadastros = []
     for i in range(funcionarios):
