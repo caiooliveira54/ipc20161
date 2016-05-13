@@ -1,3 +1,10 @@
+#Introducao a programacao de computadores
+#Professor: Jucimar Junior
+
+
+
+
+
 def criar_cadastros(clientes, colunas):
     cadastros = [["CLIENTE", "CONTA", "SALDO"]]
     for i in range(clientes):
