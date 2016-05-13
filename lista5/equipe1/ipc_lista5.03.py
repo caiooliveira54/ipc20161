@@ -1,3 +1,8 @@
+#Introducao a programacao de computadores
+#Professor: Jucimar Junior
+
+
+
 def criar_matriz(linha, coluna):
     matriz = []
     for i in range(linha):
@@ -9,7 +14,8 @@ def criar_matriz(linha, coluna):
     return matriz
 
 def multiplicar(matriza, matrizb):
-    resultado = []
+    resultado = []
+
     for i in range(len(matriza)):
         linha = []
         for j in range(len(matrizb[0])):
