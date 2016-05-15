@@ -1,3 +1,11 @@
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 5
+#
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
+
 def gerar_tabuleiro():
     number = 0
     tabuleiro = []
