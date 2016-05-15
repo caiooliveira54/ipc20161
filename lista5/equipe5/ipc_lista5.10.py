@@ -57,8 +57,8 @@ def mostrar_peca(matriz):
     resultado = []
     d = 0
     
-    x = int(input("digite a odernada da peça que queira mover: "))
-    y = int(input("digite a abicissa da peça: "))
+    x = int(input("digite a ordenada da peça que queira mover: "))
+    y = int(input("digite a abscissa da peça: "))
     origem.append(x)
     origem.append(y)
     resultado.append(origem)
@@ -73,7 +73,7 @@ def mostrar_peca(matriz):
                 opicao1.append(y)
                 resultado.append(opicao1)
                     
-                print("opições de jogada %d,%d" %(x,y))
+                print("opções de jogada %d,%d" %(x,y))
             else:
                 print("pecas com movimentos invalidos")
                 mostrar_peca(matriz)
@@ -83,7 +83,7 @@ def mostrar_peca(matriz):
                 opicao1.append(d)
                 resultado.append(opicao1)
                     
-                print("opições de jogada %d,%d" %(x,d))
+                print("opções de jogada %d,%d" %(x,d))
             else:
                 print("pecas com movimentos invalidos")
                 mostrar_peca(matriz)
@@ -95,7 +95,7 @@ def mostrar_peca(matriz):
             opicao2.append(y)
             resultado.append(opicao1)
             resultado.append(opicao2)
-            print("opições de jogada %d,%d ou %d,%d" %(x,d,x,y))
+            print("opções de jogada %d,%d ou %d,%d" %(x,d,x,y))
                 
         elif matriz[x][y] != 1:
             print("peça invalida")
@@ -115,7 +115,7 @@ def mostrar_peca(matriz):
                 opicao1.append(x)
                 opicao1.append(y)
                 resultado.append(opicao1)
-                print("opições de jogada %d,%d" %(x,y))
+                print("opções de jogada %d,%d" %(x,y))
             else:
                 print("pecas com movimentos invalidos")
                 mostrar_peca(matriz)
@@ -124,7 +124,7 @@ def mostrar_peca(matriz):
                 opicao1.append(x)
                 opicao1.append(d)
                 resultado.append(opicao1)
-                print("opições de jogada %d,%d" %(x,d))
+                print("opções de jogada %d,%d" %(x,d))
             else:
                 print("pecas com movimentos invalidos")
                 mostrar_peca(matriz)
@@ -135,7 +135,7 @@ def mostrar_peca(matriz):
             opicao2.append(y)
             resultado.append(opicao1)
             resultado.append(opicao2)
-            print("opições de jogada %d,%d ou %d,%d" %(x,d,x,y))
+            print("opções de jogada %d,%d ou %d,%d" %(x,d,x,y))
         elif matriz[x][y] != -1:
             print("peça invalida")
             mostrar_peca(matriz)
