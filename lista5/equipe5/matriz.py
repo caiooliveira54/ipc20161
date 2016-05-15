@@ -361,3 +361,40 @@ def ordem_jogada(matriz):
         if acm == 1:
             mover_pecap(matriz)
             acm = 0
+
+def somar_linha(matriz,linha,coluna,acms):
+    acms = []
+    for i in range(linha):
+        acm = 0
+        for j in range(coluna):
+            acm += matriz[i][j]
+        acms.append(acm)
+    return (acms)
+
+def somar_coluna(matriz,linha,coluna,acms):
+    acms = []
+    for i in range(linha):
+        acm = 0
+        for j in range(coluna):
+            acm += matriz[j][i]
+        acms.append(acm)
+    return acms
+
+def somar_diagonal(matriz,linha,coluna,acm,acm1):
+    for i in range(linha):
+        for j in range(coluna):
+            if (i == j):
+                acm += matriz[i][j]
+            if ((i+j) == (linha-1)):
+                acm1 += matriz[i][j]
+    return acm, acm1
+
+def verificar_cubo(lista):
+    cont = 0
+    for i in lista:
+        if i == lista[0]:
+            cont += 1
+    if cont == len(lista):
+        print ("e um cubo magico")
+    else:
+        print ("nao e um cubo magico")
