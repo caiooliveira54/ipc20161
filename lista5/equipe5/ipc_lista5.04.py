@@ -1,7 +1,7 @@
 #
 #introdução a programação de computadores
 #Professor: Jucimar JR
-#EQUIPE 1
+#EQUIPE 5
 #
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #
