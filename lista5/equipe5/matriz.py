@@ -42,6 +42,12 @@ def multiplicar_linhavetor(matriz,vetor):
     print("multiplicando")
     print(resultado)
 
+def verificar_produto(vetor,produto):
+    if vetor == produto:
+        print("e o resultado")
+    else:
+        print("nao é a resposta")
+
 def multiplicar_matriz(matriz_a,matriz_b):
     linha_a = len(matriz_a)
     coluna_a = len(matriz_a[0])
