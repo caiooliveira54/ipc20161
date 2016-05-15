@@ -1,3 +1,11 @@
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 1
+#
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
+
 def criar_matriz(linha,coluna):
     matriz = []
     for i in range(linha):
