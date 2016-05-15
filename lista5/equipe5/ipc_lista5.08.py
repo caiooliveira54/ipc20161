@@ -7,6 +7,7 @@
 #
 ##bug ao importa do matriz.py, por isso não botarei.
 #
+
 def chamar_numero():
     numero = int(input("digite um numero: "))
     return numero
