@@ -1,3 +1,11 @@
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 5
+#
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
+
 def chamar_numero():
     numero = int(input("digite um numero: "))
     return numero
@@ -22,4 +30,3 @@ def fazer_triangulo(numero):
 
 numero = chamar_numero()
 fazer_triangulo(numero)
-
