@@ -1,3 +1,11 @@
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 5
+#
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
+
 def criar_matriz(linha,coluna):
     matriz = []
     for i in range(linha):
@@ -65,6 +73,3 @@ c = somar_diagonal(matriz,linha,coluna,acm1,acm2)
 a.extend(b)
 a.extend(c)
 verificar_cubo(a)
-
-
-
