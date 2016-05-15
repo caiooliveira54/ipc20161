@@ -28,5 +28,15 @@ def fazer_triangulo(numero):
             triangulo.append(int(analisar_combinacao(numero, acm)))
         print (triangulo)
 
+def botar_vetor(numero):
+    vetor = []
+    for numero in range(0,numero + 1):
+        triangulo = []
+        for acm in range(0,numero + 1):
+            resultado = int(fatorar_numero(numero) / (fatorar_numero(acm) * fatorar_numero(numero - acm)))
+            vetor.append(resultado)
+    print(vetor)
+
 numero = chamar_numero()
 fazer_triangulo(numero)
+botar_vetor(numero)
