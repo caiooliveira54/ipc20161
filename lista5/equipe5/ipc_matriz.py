@@ -1,3 +1,11 @@
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 5
+#
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
+
 def criar_matriz(linha,coluna):
     matriz = []
     for i in range(linha):
@@ -97,4 +105,3 @@ def verificar_nulas (matriz,linha,coluna):
                     if ac2 == coluna or ac2 == linha:
                         ac_coluna += 1
     print("Numero de Linhas nulas %d, e numero de colunas nulas %d" %(ac_linha, ac_coluna))
-    
