@@ -1,7 +1,7 @@
 #Introducao a programacao de computadores
 #Professor: Jucimar Junior
 # Ana Beatriz Faria Frota - 1615310027
-# Mateus Mota de Souza
+# Mateus Mota de Souza - 1615310016
 # Nahan Trindade Passos - 1615310021
 
 def criar_matriz(linha, coluna):
