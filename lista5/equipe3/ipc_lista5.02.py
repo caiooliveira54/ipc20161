@@ -6,13 +6,13 @@
 #Monitor: Delrick Oliveira
 
 def multiplicar_vetor(matriz,vetor):
-    matrizC = []
+    matriz_multi = []
     for i in range(len(matriz)):
         acm = 0
         for j in range(len(matriz[0])):
             acm += matriz[i][j]*vetor[j]
-        matrizC.append(acm)
-    return matrizC
+        matriz_multi.append(acm)
+    return matriz_multi
 
 def criar_matriz(linhas,colunas):
     matriz = []
