@@ -37,7 +37,7 @@ def mostrar_matriz(matriz):
 
 linhas = int(input("Informe o numero de linhas da matriz: "))
 colunas = int(input("Informe o numero de colunas da matriz: "))
-matrizA = criar_matriz(linhas,colunas)
-mostrar_matriz(matrizA)
+matriz = criar_matriz(linhas,colunas)
+mostrar_matriz(matriz)
 
-print verificar_nulas(matrizA,linhas,colunas)
+print verificar_nulas(matriz,linhas,colunas)
