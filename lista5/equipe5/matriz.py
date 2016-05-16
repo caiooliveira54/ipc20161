@@ -398,3 +398,15 @@ def verificar_cubo(lista):
         print ("e um cubo magico")
     else:
         print ("nao e um cubo magico")
+
+def ver_matriz(matriz,linha,coluna):
+    cont = 1
+    if(matriz[0][0] == 0 and  matriz[0][1] == 0 or  matriz[1][0] == 0):
+        matriz[0][0] = cont
+        cont += 1
+    for i in range(linha):
+        for j in range(coluna):            
+            if(matriz[i][j] != -1 and matriz[i-1][j-1] != 0):
+                matriz[i][j] = cont
+                cont += 1
+    return matriz
