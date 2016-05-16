@@ -1,10 +1,4 @@
-#
-#introdução a programação de computadores
-#Professor: Jucimar JR
-#EQUIPE 5
-#
-#Ariel Guilherme Rocha Capistrano - 1615310029
-#
+
 
 from matriz import*
 
