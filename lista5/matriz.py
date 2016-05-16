@@ -127,9 +127,9 @@ def verificar_cubo(lista):
         if i == lista[0]:
             cont += 1
     if cont == len(lista):
-        print ("É um cubo mágico")
+        print ("e um cubo magico")
     else:
-        print ("Não é um cubo mágico")
+        print ("Nao e um cubo magico")
         
 def verificar(matriz, R):
     if R != B:

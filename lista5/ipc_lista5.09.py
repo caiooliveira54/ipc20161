@@ -44,5 +44,4 @@ def gerar_matriz_exemplo():
 
 caca_palavra = gerar_matriz_exemplo()
 formatar_caca_palavra(caca_palavra)
-mostrar_matriz(caca_palavra, 5)
-
+print mostrar_matriz(caca_palavra, 5)
