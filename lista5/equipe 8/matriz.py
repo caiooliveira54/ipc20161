@@ -17,7 +17,7 @@ def gerar_matriz_vazia(m, n):
             linha.append(num)
         matriz.append(linha)
     return matriz
-    
+
 def verificar_permutacao (matriz, linha, coluna):
     for i in range (linha):
         ac = 0
@@ -29,11 +29,11 @@ def verificar_permutacao (matriz, linha, coluna):
                 if matriz[j][i] == 1:
                     ac2 += 1
             else:
-                return ("Nao e de permutacao")
+                return ("Nao e uma matriz  permutacao")
         if (ac == 1 and ac2 == 1):
-            return ("E de permutacao")
+            return ("E uma matriz de permutacao")
         else:
-            return("Nao e permutacao")
+            return("Nao e uma matriz  permutacao")
 
 def verificar_nulas (matriz,linha, coluna):
     ac_linha = 0
@@ -55,8 +55,8 @@ def verificar_nulas (matriz,linha, coluna):
     return ("Numero de Linhas nulas %d, e numero de colunas nulas %d" %(ac_linha, ac_coluna))
 
 def mostrar_matriz(matriz, linhas):
-	for i in range(linhas):
-		print(matriz[i])
+    for i in range(linhas):
+        print(matriz[i])
 
 
 def gerar_vetor(n):
@@ -73,7 +73,7 @@ def multiplicar_matrizes(matrizA,matrizB):
     colunasA = len(matrizA[0])
     linhasB = len(matrizB)
     colunasB = len(matrizB[0])
-    
+
     for i in range(linhasA):
         linhac = []
         for j in range(colunasB):
@@ -120,7 +120,7 @@ def verificar_diagonais(matriz, linha, coluna, acm, acm1):
             if ((i+j) == (linha-1)):
                 acm1 += matriz[i][j]
     return acm, acm1
-    
+
 def verificar_cubo(lista):
     cont = 0
     for i in lista:
@@ -130,7 +130,7 @@ def verificar_cubo(lista):
         print ("É um cubo mágico")
     else:
         print ("Não é um cubo mágico")
-        
+
 def verificar(matriz, R):
     if R != B:
         print ("Resultado incorreto da matriz")
@@ -182,3 +182,15 @@ def verificar_posicao_valida(matriz, linha, coluna):
         return "Invalido"
     else:
         return matriz[linha][coluna]
+
+#Gera Fatorial
+def fatorial(n):
+    if n ==1  or n == 0:
+        return 1
+    else:
+        return n*fatorial(n-1)
+
+#Gera triangulo    
+def analisea_triangulo(n,i):
+    acm = fatorial(n)/(fatorial(i)*fatorial(n-i))
+    return acm
