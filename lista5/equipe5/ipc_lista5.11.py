@@ -5,6 +5,7 @@
 #Nickso Patrick Façanha Calheiros - 1615310059
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #
+
 def criar_contas(clientes):
     cadastros = []
     for i in range(clientes):
