@@ -21,7 +21,7 @@ def imprimir(matriz, linha):
     for i in range(linha):
         print(matriz[i])
         
-matriz = [[0, 0, -1, 0], [-1, 0, -1, 0], [0, -1, 0, 0]]
+matriz = [[0, 0, -1, 0], [0, 0, -1, 0], [0, -1, 0, -1]]
 
 imprimir((analisar_Matriz(matriz,3,3)),3)
 
