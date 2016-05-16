@@ -1,3 +1,11 @@
+#
+#introdução a programação de computadores
+#Professor: Jucimar JR
+#EQUIPE 5
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#
+
 def cadastrar_funcionarios(funcionarios):
     cadastro = []
     for j in range(funcionarios):
@@ -62,9 +70,7 @@ def calcular_liquido(funcionarios):
 def mostrar_folha(folha):
     print ("\nFolha de pagamento mensal")
     for i in range(len(folha)): 
-        print ("Funcionario %s possui salario liquido equivalente a R$%.2f"%(folha[i][0], folha[i][1]))
-        print ("----------------------------------------------------------------------------")
-        
+        print ("\nFuncionario %s possui salario liquido equivalente a R$%.2f"%(folha[i][0], folha[i][1]))
 
 empregardos = int(input("Programa de cadastro de funcionarios\nNumero de funcionarios empregados atualmente: "))
 cadastramento = cadastrar_funcionarios(empregardos)
