@@ -1,8 +1,3 @@
-#Introducao a programacao de computadores
-#Professor: Jucimar Junior
-#samuel silva de frança - 1615310049
-#bruno de oliveira freire - 1615310030
-#Felipe Henrique Bastos Costa - 1615310032
 def verificar_linhas(matriz, linha, coluna, acms):
     acms = []
     for i in range(linha):
