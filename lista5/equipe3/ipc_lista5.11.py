@@ -11,7 +11,7 @@ def fazer_cadastro(clientes):
         dados = []
         for j in range(3):
             if j == 0:
-                nome = raw_input("Informe o nome do %dº cliente: "%(i+1))
+                nome = str(input("Informe o nome do %dº cliente: "%(i+1)))
                 dados.append(nome)
             if j == 1:
                 num_cadastro = int(input("Informe o número da conta: "))
@@ -30,7 +30,7 @@ def atualizar_contas(matriz):
             for j in range(len(matriz[0])):
                 if matriz[i][j] == conta:
                     print("Seja bem vindo, %s,"%matriz[i][0] + "seu saldo atual e de R$ %.2f."%matriz[i][2])
-                    tipo = raw_input("A operação sera feita usando crédito ou debito (c ou d)?\n")
+                    tipo = str(input("A operação sera feita usando crédito ou debito (c ou d)?\n"))
                     if tipo == "c" or tipo == "crédito" or tipo == "credito":
                         valor = float(input("Informe o valor da operação com crédito: "))
                         matriz[i][2] -= valor
