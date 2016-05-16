@@ -85,7 +85,9 @@ def verificar_imobilidade(matriz):
 
 tabuleiro = criar_exemplo()
 mostrar_matriz(tabuleiro)
+
 a = verificar_tomar_pecas(tabuleiro)
 b = verificar_mover(tabuleiro)
 c = verificar_imobilidade(tabuleiro)
+
 print("\nRespostas:\na) %s\nb) %s\nc) %s"%(a,b,c))
