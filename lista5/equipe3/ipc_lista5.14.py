@@ -13,6 +13,7 @@ def criar_matriz(linhas,colunas):
             listainterna.append(num)
         matriz.append(listainterna)
     return matriz
+
 def calcular_itinerario(matriz,linhas,colunas):
     cond = True
     iti = 0
@@ -39,6 +40,7 @@ def montar_matriz(matriz,linhas):
 linhas = int(input("Informe quantas linhas têm a matrizA:\n"))
 colunas = int(input("Informe quantas colunas têm a matrizA:\n"))
 matrizA = criar_matriz(linhas,colunas)
+
 montar_matriz(matrizA,linhas)
 soma = calcular_itinerario(matrizA,linhas,colunas)
 print soma
