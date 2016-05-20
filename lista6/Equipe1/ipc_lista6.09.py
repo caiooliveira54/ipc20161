@@ -5,14 +5,14 @@
 #Ariel Guilherme Rocha Capistrano - 1615310029
 #Luiz Alexandre Oliveira de Souza - 1615310057
 
-def soma(n):
+def somar(n):
     if n == 0:
         return 0
-    elif n == 1:
+    if n == 1:
         return 1
     else:
         return n + soma(n-1)
 
-print("Digite o número que você deseja somar: ")
-n = int(input("(Vamos somá-lo de 1, até o número que você digitou): "))
-print(soma(n))
+numero = int(input("Digite o número que você deseja somar!\nVamos somá-lo de 1, até o número que você digitou: "))
+resultado = somar(numero) 
+print(resultado)
