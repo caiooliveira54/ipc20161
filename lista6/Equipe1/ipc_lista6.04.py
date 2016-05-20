@@ -1,3 +1,10 @@
+#Introdução a Programação de Computadores
+#Professor: Jucimar JR
+#EQUIPE 1
+#Nickso Patrick Façanha Calheiros - 1615310059
+#Ariel Guilherme Rocha Capistrano - 1615310029
+#Luiz Alexandre Oliveira de Souza - 1615310057
+
 def somar_vetor(vetor,ac):
     if len(vetor) + ac == 0:
         return vetor[0]
